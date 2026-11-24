@@ -1,0 +1,389 @@
+{
+  "version": 1,
+  "session": { "accountId": null },
+  "accounts": {
+    "acct-founder": {
+      "id": "acct-founder",
+      "name": "Alex Demo",
+      "firstName": "Alex",
+      "lastName": "Demo",
+      "role": "Startup",
+      "title": "CEO",
+      "company": "Demo Company",
+      "tagline": "Founder raising a seed round",
+      "email": "alex.demo@example.com",
+      "permission": "admin"
+    },
+    "acct-investor": {
+      "id": "acct-investor",
+      "name": "Dana Whitfield",
+      "firstName": "Dana",
+      "lastName": "Whitfield",
+      "role": "Investor",
+      "title": "Partner",
+      "company": "Meridian Capital",
+      "tagline": "Investor hunting seed and Series A deals",
+      "email": "dana.whitfield@example.com"
+    },
+    "acct-corporate": {
+      "id": "acct-corporate",
+      "name": "Marco Bellini",
+      "firstName": "Marco",
+      "lastName": "Bellini",
+      "role": "Corporate",
+      "title": "Head of Innovation",
+      "company": "Nova Retail Group",
+      "tagline": "Corporate innovation lead scouting pilots and talent",
+      "email": "marco.bellini@example.com"
+    },
+    "acct-media": {
+      "id": "acct-media",
+      "name": "Priya Nair",
+      "firstName": "Priya",
+      "lastName": "Nair",
+      "role": "Media",
+      "title": "Journalist",
+      "company": "The Founder Desk",
+      "tagline": "Journalist covering startups and venture",
+      "email": "priya.nair@example.com"
+    }
+  },
+  "states": {
+    "acct-founder": {
+      "profile": {
+        "id": "acct-founder",
+        "firstName": "Alex",
+        "lastName": "Demo",
+        "title": "CEO",
+        "company": "Demo Company",
+        "role": "Startup",
+        "industry": "Foodtech",
+        "intro": "Building a food supply platform for the demo.",
+        "selections": [
+          { "interestId": "group-industry-foodtech", "goalId": "get-investment" },
+          { "interestId": "group-startup-stage-early-stage-pre-seed-and-seed", "goalId": "get-investment" },
+          { "interestId": "group-industry-travel", "goalId": "network" }
+        ],
+        "networking": true,
+        "countries": ["Greece"],
+        "availability": [
+          "2026-05-28T09:00",
+          "2026-05-28T10:00",
+          "2026-05-28T11:00",
+          "2026-05-28T13:00",
+          "2026-05-28T15:00",
+          "2026-05-28T16:00"
+        ],
+        "blocked": [],
+        "social": {}
+      },
+      "meetings": [
+        {
+          "id": "m-founder-1",
+          "createdAt": "2026-05-26T09:00:00.000Z",
+          "personId": "person-2",
+          "name": "Daniel Keller",
+          "company": "Skyline Ventures",
+          "title": "Principal",
+          "role": "Investor",
+          "start": "2026-05-28T10:00",
+          "duration": 15,
+          "place": "Networking Area",
+          "status": "pending",
+          "direction": "inbound"
+        },
+        {
+          "id": "m-founder-2",
+          "createdAt": "2026-05-26T09:10:00.000Z",
+          "personId": "person-5",
+          "name": "Amara Okafor",
+          "company": "Lagos Capital",
+          "title": "Partner",
+          "role": "Investor",
+          "start": "2026-05-28T11:30",
+          "duration": 15,
+          "place": "Table 44",
+          "status": "accepted",
+          "direction": "outbound"
+        },
+        {
+          "id": "m-founder-3",
+          "createdAt": "2026-05-26T09:20:00.000Z",
+          "personId": "person-14",
+          "name": "Ines Moreau",
+          "company": "Riviera Fund",
+          "title": "Associate",
+          "role": "Investor",
+          "start": "2026-05-28T14:00",
+          "duration": 15,
+          "place": "Networking Area",
+          "status": "pending",
+          "direction": "inbound"
+        },
+        {
+          "id": "m-founder-4",
+          "createdAt": "2026-05-26T09:30:00.000Z",
+          "personId": "person-19",
+          "name": "George Lymperis",
+          "company": "Parthenon Capital",
+          "title": "Managing Partner",
+          "role": "Investor",
+          "start": "2026-05-28T16:30",
+          "duration": 15,
+          "place": "Table 44",
+          "status": "accepted",
+          "direction": "outbound"
+        },
+        {
+          "id": "m-founder-organizer",
+          "createdAt": "2026-05-26T12:00:00.000Z",
+          "personId": "person-1",
+          "name": "Emily Carter",
+          "company": "Greenmarket Co",
+          "title": "Founder & CEO",
+          "role": "Startup",
+          "start": "2026-05-28T13:00",
+          "duration": 15,
+          "place": "Table 1, Networking Area",
+          "slotId": "2026-05-28T13:00",
+          "table": 1,
+          "note": "You both work in foodtech.",
+          "suggestedBy": "organizer",
+          "status": "pending",
+          "direction": "inbound"
+        }
+      ],
+      "bookmarks": { "bookmarked": [], "visited": [], "mySessions": [] },
+      "readAnnouncements": [],
+      "leads": [],
+      "chats": {},
+      "reelLikes": [],
+      "reelSaves": [],
+      "tickets": []
+    },
+    "acct-investor": {
+      "profile": {
+        "id": "acct-investor",
+        "firstName": "Dana",
+        "lastName": "Whitfield",
+        "title": "Partner",
+        "company": "Meridian Capital",
+        "role": "Investor",
+        "industry": "Fintech",
+        "intro": "Seed and Series A investor focused on fintech and marketplaces.",
+        "selections": [
+          { "interestId": "group-industry-fintech", "goalId": "invest" },
+          { "interestId": "group-investment-type-early-stage-pre-seed-and-seed", "goalId": "invest" },
+          { "interestId": "group-investment-type-series-a", "goalId": "invest" },
+          { "interestId": "group-industry-travel", "goalId": "invest" }
+        ],
+        "networking": true,
+        "countries": ["United Kingdom"],
+        "availability": [
+          "2026-05-28T10:00",
+          "2026-05-28T11:00",
+          "2026-05-28T13:00",
+          "2026-05-28T15:00",
+          "2026-05-28T16:00"
+        ],
+        "blocked": [],
+        "social": {}
+      },
+      "meetings": [
+        {
+          "id": "m-investor-1",
+          "createdAt": "2026-05-26T14:00:00.000Z",
+          "personId": "person-1",
+          "name": "Emily Carter",
+          "company": "Greenmarket Co",
+          "title": "Founder & CEO",
+          "role": "Startup",
+          "start": "2026-05-28T10:30",
+          "duration": 15,
+          "place": "Table 12",
+          "status": "accepted",
+          "direction": "outbound"
+        },
+        {
+          "id": "m-investor-2",
+          "createdAt": "2026-05-26T14:10:00.000Z",
+          "personId": "person-3",
+          "name": "Sofia Marinos",
+          "company": "Atlas Robotics",
+          "title": "Co-Founder",
+          "role": "Startup",
+          "start": "2026-05-28T13:00",
+          "duration": 15,
+          "place": "Networking Area",
+          "status": "pending",
+          "direction": "inbound"
+        },
+        {
+          "id": "m-investor-3",
+          "createdAt": "2026-05-26T14:20:00.000Z",
+          "personId": "person-9",
+          "name": "Katerina Doukas",
+          "company": "Melody Minds",
+          "title": "Founder",
+          "role": "Startup",
+          "start": "2026-05-28T15:30",
+          "duration": 15,
+          "place": "Table 12",
+          "status": "accepted",
+          "direction": "outbound"
+        }
+      ],
+      "bookmarks": {
+        "bookmarked": ["place-networking"],
+        "visited": [],
+        "mySessions": ["s-what-vcs-want", "s-closing-series-a"]
+      },
+      "readAnnouncements": ["a-welcome"],
+      "leads": [],
+      "chats": {},
+      "reelLikes": ["reel-003"],
+      "reelSaves": [],
+      "stamps": [
+        { "targetId": "sponsor:sponsor-nbg", "at": "2026-05-27T10:00:00.000Z" },
+        { "targetId": "place:place-hudson", "at": "2026-05-27T09:00:00.000Z" }
+      ],
+      "tickets": []
+    },
+    "acct-corporate": {
+      "profile": {
+        "id": "acct-corporate",
+        "firstName": "Marco",
+        "lastName": "Bellini",
+        "title": "Head of Innovation",
+        "company": "Nova Retail Group",
+        "role": "Corporate",
+        "industry": "Media",
+        "intro": "Scouting startups and running pilots for a retail group.",
+        "selections": [
+          { "interestId": "group-industry-space-tech", "goalId": "buy" },
+          { "interestId": "group-industry-robotics", "goalId": "buy" },
+          { "interestId": "group-industry-media", "goalId": "buy" },
+          { "interestId": "group-industry-fintech", "goalId": "offer-job" }
+        ],
+        "networking": true,
+        "countries": ["Italy"],
+        "availability": [
+          "2026-05-28T09:00",
+          "2026-05-28T12:00",
+          "2026-05-28T14:00",
+          "2026-05-28T15:00"
+        ],
+        "blocked": [],
+        "social": {}
+      },
+      "meetings": [
+        {
+          "id": "m-corporate-1",
+          "createdAt": "2026-05-26T16:00:00.000Z",
+          "personId": "person-15",
+          "name": "Andreas Kontos",
+          "company": "Pixel Forge",
+          "title": "Co-Founder",
+          "role": "Startup",
+          "start": "2026-05-28T11:00",
+          "duration": 15,
+          "place": "Networking Area",
+          "status": "accepted",
+          "direction": "outbound"
+        },
+        {
+          "id": "m-corporate-2",
+          "createdAt": "2026-05-26T16:10:00.000Z",
+          "personId": "person-18",
+          "name": "Maya Patel",
+          "company": "Orbit Legal",
+          "title": "Founder",
+          "role": "Startup",
+          "start": "2026-05-28T14:30",
+          "duration": 15,
+          "place": "Table 7",
+          "status": "pending",
+          "direction": "inbound"
+        }
+      ],
+      "bookmarks": { "bookmarked": [], "visited": [], "mySessions": [] },
+      "readAnnouncements": [],
+      "leads": [],
+      "chats": {},
+      "reelLikes": [],
+      "reelSaves": ["reel-pixel-forge"],
+      "tickets": []
+    },
+    "acct-media": {
+      "profile": {
+        "id": "acct-media",
+        "firstName": "Priya",
+        "lastName": "Nair",
+        "title": "Journalist",
+        "company": "The Founder Desk",
+        "role": "Media",
+        "industry": "Media",
+        "intro": "Covering startups and venture across Europe.",
+        "selections": [
+          { "interestId": "group-industry-media", "goalId": "network" },
+          { "interestId": "group-industry-music", "goalId": "network" },
+          { "interestId": "group-industry-visual-arts", "goalId": "network" },
+          { "interestId": "group-industry-fintech", "goalId": "network" }
+        ],
+        "networking": true,
+        "countries": ["United Kingdom"],
+        "availability": [
+          "2026-05-28T09:00",
+          "2026-05-28T10:00",
+          "2026-05-28T11:00",
+          "2026-05-28T14:00",
+          "2026-05-28T16:00"
+        ],
+        "blocked": [],
+        "social": {}
+      },
+      "meetings": [],
+      "bookmarks": {
+        "bookmarked": ["place-chill"],
+        "visited": [],
+        "mySessions": ["s-media-age-ai", "s-attention-economy", "s-creative-ai-renaissance"]
+      },
+      "readAnnouncements": ["a-welcome", "a-app-update"],
+      "leads": [],
+      "chats": {},
+      "reelLikes": ["reel-001", "reel-melody-minds"],
+      "reelSaves": [],
+      "stamps": [
+        { "targetId": "place:place-registration", "at": "2026-05-27T08:30:00.000Z" },
+        { "targetId": "place:place-networking", "at": "2026-05-27T09:15:00.000Z" },
+        { "targetId": "sponsor:sponsor-skyline", "at": "2026-05-27T11:00:00.000Z" },
+        { "targetId": "side-event:se-media-breakfast", "at": "2026-05-28T09:05:00.000Z" }
+      ],
+      "tickets": []
+    }
+  },
+  "shared": {
+    "reelLikes": {
+      "reel-001": 214,
+      "reel-002": 187,
+      "reel-melody-minds": 152,
+      "reel-003": 236,
+      "reel-harbor-health": 98,
+      "reel-pixel-forge": 141
+    },
+    "reserved": {
+      "session:s-hiring-first-ten": 25,
+      "side-event:se-investor-roundtables": 35,
+      "session:s-deep-tech": 27,
+      "session:s-openai-for-startups": 42,
+      "side-event:se-media-breakfast": 42,
+      "side-event:se-ai-workshop": 47,
+      "side-event:se-creative-coding": 27
+    },
+    "applications": [],
+    "sideEventAdmins": {
+      "se-investor-roundtables": "acct-investor",
+      "se-pitch-clinic": "acct-investor"
+    }
+  }
+}

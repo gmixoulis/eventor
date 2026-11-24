@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "Eventor",
+    "slug": "eventor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/brand/icon-1024.png",
+    "scheme": "eventor",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "com.eventor.app",
+      "deploymentTarget": "17.0"
+    },
+    "android": {
+      "package": "com.eventor.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/brand/icon-foreground-1024.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "server",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFFFF",
+          "image": "./assets/brand/splash-logo.png",
+          "imageWidth": 200
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Scan attendee QR codes"
+        }
+      ],
+      "@maplibre/maplibre-react-native",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Shows your position on the venue map and starts walking directions from where you are."
+        }
+      ],
+      "react-native-blob-util",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 26,
+            "buildArchs": [
+              "arm64-v8a",
+              "x86_64"
+            ]
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

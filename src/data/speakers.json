@@ -1,0 +1,1098 @@
+[
+ {
+  "id": "sp-001",
+  "name": "Tomas Kowalczyk",
+  "title": "Co-Founder",
+  "company": "Voxwell",
+  "bio": "Tomas Kowalczyk serves as Co-Founder at Voxwell and speaks on building and funding modern companies in New York.",
+  "featured": true
+ },
+ {
+  "id": "sp-002",
+  "name": "Chloe Lindqvist",
+  "title": "VP of Engineering",
+  "company": "Lattice Labs",
+  "bio": "Chloe Lindqvist serves as VP of Engineering at Lattice Labs and speaks on building and funding modern companies in New York.",
+  "featured": true
+ },
+ {
+  "id": "sp-003",
+  "name": "Graham Ellison",
+  "title": "Partner",
+  "company": "Brightwater Ventures",
+  "bio": "Graham Ellison serves as Partner at Brightwater Ventures and speaks on building and funding modern companies in New York.",
+  "featured": true
+ },
+ {
+  "id": "sp-004",
+  "name": "Lena Park",
+  "title": "Co-Founder & CRO",
+  "company": "Paywise",
+  "bio": "Lena Park serves as Co-Founder & CRO at Paywise and speaks on building and funding modern companies in New York.",
+  "featured": true
+ },
+ {
+  "id": "sp-005",
+  "name": "Samuel Adeyemi",
+  "title": "Co-Founder & CEO",
+  "company": "Cityhop",
+  "bio": "Samuel Adeyemi serves as Co-Founder & CEO at Cityhop and speaks on building and funding modern companies in New York.",
+  "featured": true
+ },
+ {
+  "id": "sp-006",
+  "name": "Priya Raman",
+  "title": "Co-Founder & CTO",
+  "company": "Lattice Labs",
+  "bio": "Priya Raman serves as Co-Founder & CTO at Lattice Labs and speaks on building and funding modern companies in New York.",
+  "featured": true
+ },
+ {
+  "id": "sp-007",
+  "name": "Nora Feldman",
+  "title": "Co-Founder & Co-CEO",
+  "company": "Frameforge",
+  "bio": "Nora Feldman serves as Co-Founder & Co-CEO at Frameforge and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-008",
+  "name": "Opal Jensen",
+  "title": "Co-Founder & CEO",
+  "company": "Atlas AI",
+  "bio": "Opal Jensen serves as Co-Founder & CEO at Atlas AI and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-009",
+  "name": "Lucas Underwood",
+  "title": "Partner",
+  "company": "Harborlight Capital",
+  "bio": "Lucas Underwood serves as Partner at Harborlight Capital and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-010",
+  "name": "Rachel Dubois",
+  "title": "Head of Startups",
+  "company": "Atlas AI",
+  "bio": "Rachel Dubois serves as Head of Startups at Atlas AI and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-011",
+  "name": "Isaac Ramsey",
+  "title": "Editor",
+  "company": "Meridian Labs",
+  "bio": "Isaac Ramsey serves as Editor at Meridian Labs and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-012",
+  "name": "Anika Finch",
+  "title": "Chief Product Officer",
+  "company": "Bluebird Health",
+  "bio": "Anika Finch serves as Chief Product Officer at Bluebird Health and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-013",
+  "name": "Gabriel Reyes",
+  "title": "Founding Partner",
+  "company": "Copperline",
+  "bio": "Gabriel Reyes serves as Founding Partner at Copperline and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-014",
+  "name": "Wren Hayes",
+  "title": "Head of Design",
+  "company": "Stonebridge Ventures",
+  "bio": "Wren Hayes serves as Head of Design at Stonebridge Ventures and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-015",
+  "name": "Ravi Sato",
+  "title": "Chief Technology Officer",
+  "company": "Quillpad",
+  "bio": "Ravi Sato serves as Chief Technology Officer at Quillpad and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-016",
+  "name": "Zoe Delgado",
+  "title": "Founder & Investor",
+  "company": "Tandem Robotics",
+  "bio": "Zoe Delgado serves as Founder & Investor at Tandem Robotics and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-017",
+  "name": "Marcus Okafor",
+  "title": "Co-Founder & COO",
+  "company": "Fieldnote",
+  "bio": "Marcus Okafor serves as Co-Founder & COO at Fieldnote and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-018",
+  "name": "Amelia Dumont",
+  "title": "Co-Founder & CEO",
+  "company": "Marlow & Finch",
+  "bio": "Amelia Dumont serves as Co-Founder & CEO at Marlow & Finch and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-019",
+  "name": "Maya Okonkwo-Reyes",
+  "title": "Editor-in-Chief",
+  "company": "The Metro Wire",
+  "bio": "Maya Okonkwo-Reyes serves as Editor-in-Chief at The Metro Wire and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-020",
+  "name": "Keiko Foster",
+  "title": "Co-Founder & CEO",
+  "company": "Signalfire Media",
+  "bio": "Keiko Foster serves as Co-Founder & CEO at Signalfire Media and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-021",
+  "name": "Andre Quinn",
+  "title": "Co-Founder & CEO",
+  "company": "Kestrel Systems",
+  "bio": "Andre Quinn serves as Co-Founder & CEO at Kestrel Systems and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-022",
+  "name": "Marta Baptiste",
+  "title": "Chief Scientist",
+  "company": "Pinecrest Partners",
+  "bio": "Marta Baptiste serves as Chief Scientist at Pinecrest Partners and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-023",
+  "name": "Ethan Morrow",
+  "title": "Head of Growth",
+  "company": "Rooftop Labs",
+  "bio": "Ethan Morrow serves as Head of Growth at Rooftop Labs and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-024",
+  "name": "Nina Brandt",
+  "title": "General Partner",
+  "company": "Ledgerly",
+  "bio": "Nina Brandt serves as General Partner at Ledgerly and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-025",
+  "name": "Victor Maddox",
+  "title": "Chief Operating Officer",
+  "company": "Parkside Ventures",
+  "bio": "Victor Maddox serves as Chief Operating Officer at Parkside Ventures and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-026",
+  "name": "Rosa Dawson",
+  "title": "Partner",
+  "company": "Nimbus Works",
+  "bio": "Rosa Dawson serves as Partner at Nimbus Works and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-027",
+  "name": "Rafael Ortega",
+  "title": "General Partner",
+  "company": "Cobalt Studio",
+  "bio": "Rafael Ortega serves as General Partner at Cobalt Studio and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-028",
+  "name": "Dara Zimmerman",
+  "title": "Professor of Practice",
+  "company": "Evergreen Fund",
+  "bio": "Dara Zimmerman serves as Professor of Practice at Evergreen Fund and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-029",
+  "name": "Kofi Kim",
+  "title": "Founder",
+  "company": "Beacon Analytics",
+  "bio": "Kofi Kim serves as Founder at Beacon Analytics and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-030",
+  "name": "Mia Yilmaz",
+  "title": "Chief Technology Officer",
+  "company": "Driftwood Data",
+  "bio": "Mia Yilmaz serves as Chief Technology Officer at Driftwood Data and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-031",
+  "name": "Caleb Kessler",
+  "title": "Head of Product",
+  "company": "Highline Capital",
+  "bio": "Caleb Kessler serves as Head of Product at Highline Capital and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-032",
+  "name": "Camila Bennett",
+  "title": "Co-Founder & CEO",
+  "company": "Juniper Security",
+  "bio": "Camila Bennett serves as Co-Founder & CEO at Juniper Security and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-033",
+  "name": "Felix Mercer",
+  "title": "Founding Partner",
+  "company": "Lumen Mobility",
+  "bio": "Felix Mercer serves as Founding Partner at Lumen Mobility and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-034",
+  "name": "Talia Xu",
+  "title": "Co-Founder & CEO",
+  "company": "Mosaic Health",
+  "bio": "Talia Xu serves as Co-Founder & CEO at Mosaic Health and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-035",
+  "name": "Simon Iverson",
+  "title": "Senior Reporter",
+  "company": "Northwind Energy",
+  "bio": "Simon Iverson serves as Senior Reporter at Northwind Energy and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-036",
+  "name": "Selena Vance",
+  "title": "Director of Partnerships",
+  "company": "Orchard Ventures",
+  "bio": "Selena Vance serves as Director of Partnerships at Orchard Ventures and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-037",
+  "name": "Noah Ito",
+  "title": "Co-Founder & CEO",
+  "company": "Pixelgrove",
+  "bio": "Noah Ito serves as Co-Founder & CEO at Pixelgrove and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-038",
+  "name": "Ivy Voss",
+  "title": "Head of Growth",
+  "company": "Redbrick Ventures",
+  "bio": "Ivy Voss serves as Head of Growth at Redbrick Ventures and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-039",
+  "name": "Julian Kapoor",
+  "title": "Co-Founder and CEO",
+  "company": "Sable Labs",
+  "bio": "Julian Kapoor serves as Co-Founder and CEO at Sable Labs and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-040",
+  "name": "Imani Vasquez",
+  "title": "Partner",
+  "company": "Tidewater Media",
+  "bio": "Imani Vasquez serves as Partner at Tidewater Media and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-041",
+  "name": "Jonah Gallagher",
+  "title": "Editor",
+  "company": "Union Square Fund",
+  "bio": "Jonah Gallagher serves as Editor at Union Square Fund and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-042",
+  "name": "Yara Sinclair",
+  "title": "Chief Product Officer",
+  "company": "Vantage Climate",
+  "bio": "Yara Sinclair serves as Chief Product Officer at Vantage Climate and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-043",
+  "name": "Hugo Greene",
+  "title": "Partner",
+  "company": "Westbrook Partners",
+  "bio": "Hugo Greene serves as Partner at Westbrook Partners and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-044",
+  "name": "Liam Stone",
+  "title": "Head of Design",
+  "company": "Yardstick",
+  "bio": "Liam Stone serves as Head of Design at Yardstick and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-045",
+  "name": "Owen Ibrahim",
+  "title": "Chief Technology Officer",
+  "company": "Zephyr Payments",
+  "bio": "Owen Ibrahim serves as Chief Technology Officer at Zephyr Payments and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-046",
+  "name": "Hana Thompson",
+  "title": "Head of Product",
+  "company": "Foxglove",
+  "bio": "Hana Thompson serves as Head of Product at Foxglove and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-047",
+  "name": "Dylan Ellsworth",
+  "title": "Co-Founder & CTO",
+  "company": "Granite Row",
+  "bio": "Dylan Ellsworth serves as Co-Founder & CTO at Granite Row and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-048",
+  "name": "Sasha Pereira",
+  "title": "Partner",
+  "company": "Halcyon AI",
+  "bio": "Sasha Pereira serves as Partner at Halcyon AI and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-049",
+  "name": "Elias Estrada",
+  "title": "CEO & Co-Founder",
+  "company": "Ironwood Capital",
+  "bio": "Elias Estrada serves as CEO & Co-Founder at Ironwood Capital and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-050",
+  "name": "Amina Patel",
+  "title": "Partner",
+  "company": "Kingfisher Labs",
+  "bio": "Amina Patel serves as Partner at Kingfisher Labs and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-051",
+  "name": "Ava Gupta",
+  "title": "Partner",
+  "company": "Larkspur",
+  "bio": "Ava Gupta serves as Partner at Larkspur and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-052",
+  "name": "Chloe Rivera",
+  "title": "Chief Scientist",
+  "company": "Maple & Main",
+  "bio": "Chloe Rivera serves as Chief Scientist at Maple & Main and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-053",
+  "name": "Darius Whitfield",
+  "title": "Director of Global Partnerships",
+  "company": "Northbeam Cloud",
+  "bio": "Darius Whitfield serves as Director of Global Partnerships at Northbeam Cloud and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-054",
+  "name": "Leila Nguyen",
+  "title": "Partner",
+  "company": "Overlook Ventures",
+  "bio": "Leila Nguyen serves as Partner at Overlook Ventures and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-055",
+  "name": "Miles Cho",
+  "title": "Co-Founder",
+  "company": "Plainfield Bank",
+  "bio": "Miles Cho serves as Co-Founder at Plainfield Bank and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-056",
+  "name": "Naomi Novak",
+  "title": "Editor",
+  "company": "Quarry Studio",
+  "bio": "Naomi Novak serves as Editor at Quarry Studio and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-057",
+  "name": "Leo Edwards",
+  "title": "Principal",
+  "company": "Riverbend",
+  "bio": "Leo Edwards serves as Principal at Riverbend and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-058",
+  "name": "Opal Prescott",
+  "title": "Founder & CEO",
+  "company": "Summit Rail",
+  "bio": "Opal Prescott serves as Founder & CEO at Summit Rail and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-059",
+  "name": "Lucas Abbott",
+  "title": "Head of Design",
+  "company": "Thistle Health",
+  "bio": "Lucas Abbott serves as Head of Design at Thistle Health and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-060",
+  "name": "Elise Lombardi",
+  "title": "Chief Technology Officer",
+  "company": "Uplift Works",
+  "bio": "Elise Lombardi serves as Chief Technology Officer at Uplift Works and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-061",
+  "name": "Isaac Adler",
+  "title": "Partner",
+  "company": "Verity Legal",
+  "bio": "Isaac Adler serves as Partner at Verity Legal and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-062",
+  "name": "Anika Lowe",
+  "title": "Co-Founder & CEO",
+  "company": "Wharf Capital",
+  "bio": "Anika Lowe serves as Co-Founder & CEO at Wharf Capital and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-063",
+  "name": "Gabriel Castillo",
+  "title": "CEO & Co-Founder",
+  "company": "Northbeam Cloud",
+  "bio": "Gabriel Castillo serves as CEO & Co-Founder at Northbeam Cloud and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-064",
+  "name": "Wren Nakamura",
+  "title": "Managing Director",
+  "company": "Lattice Labs",
+  "bio": "Wren Nakamura serves as Managing Director at Lattice Labs and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-065",
+  "name": "Ravi Yamada",
+  "title": "CEO",
+  "company": "Brightwater Ventures",
+  "bio": "Ravi Yamada serves as CEO at Brightwater Ventures and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-066",
+  "name": "Zoe Jacobs",
+  "title": "Founder & CEO",
+  "company": "Cityhop",
+  "bio": "Zoe Jacobs serves as Founder & CEO at Cityhop and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-067",
+  "name": "Marcus Wallace",
+  "title": "Co-Founder & CEO",
+  "company": "Frameforge",
+  "bio": "Marcus Wallace serves as Co-Founder & CEO at Frameforge and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-068",
+  "name": "Amelia Joshi",
+  "title": "Co-Founder & CEO",
+  "company": "Paywise",
+  "bio": "Amelia Joshi serves as Co-Founder & CEO at Paywise and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-069",
+  "name": "Theo Bennett",
+  "title": "Co-Founder & CEO",
+  "company": "Voxwell",
+  "bio": "Theo Bennett serves as Co-Founder & CEO at Voxwell and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-070",
+  "name": "Keiko Mercer",
+  "title": "Co-Founder & CEO",
+  "company": "Atlas AI",
+  "bio": "Keiko Mercer serves as Co-Founder & CEO at Atlas AI and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-071",
+  "name": "Andre Xu",
+  "title": "Founder & CEO",
+  "company": "Harborlight Capital",
+  "bio": "Andre Xu serves as Founder & CEO at Harborlight Capital and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-072",
+  "name": "Marta Iverson",
+  "title": "Partner",
+  "company": "Gridwork",
+  "bio": "Marta Iverson serves as Partner at Gridwork and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-073",
+  "name": "Ethan Vance",
+  "title": "Co-Founder & CEO",
+  "company": "Meridian Labs",
+  "bio": "Ethan Vance serves as Co-Founder & CEO at Meridian Labs and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-074",
+  "name": "Nina Ito",
+  "title": "Head of Design",
+  "company": "Bluebird Health",
+  "bio": "Nina Ito serves as Head of Design at Bluebird Health and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-075",
+  "name": "Victor Voss",
+  "title": "Co-Founder & CEO",
+  "company": "Copperline",
+  "bio": "Victor Voss serves as Co-Founder & CEO at Copperline and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-076",
+  "name": "Rosa Kapoor",
+  "title": "General Partner",
+  "company": "Stonebridge Ventures",
+  "bio": "Rosa Kapoor serves as General Partner at Stonebridge Ventures and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-077",
+  "name": "Rafael Vasquez",
+  "title": "VP of Engineering",
+  "company": "Quillpad",
+  "bio": "Rafael Vasquez serves as VP of Engineering at Quillpad and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-078",
+  "name": "Dara Gallagher",
+  "title": "Co-Founder",
+  "company": "Tandem Robotics",
+  "bio": "Dara Gallagher serves as Co-Founder at Tandem Robotics and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-079",
+  "name": "Kofi Sinclair",
+  "title": "Co-Founder & CEO",
+  "company": "Fieldnote",
+  "bio": "Kofi Sinclair serves as Co-Founder & CEO at Fieldnote and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-080",
+  "name": "Mia Greene",
+  "title": "Founder & CEO",
+  "company": "Marlow & Finch",
+  "bio": "Mia Greene serves as Founder & CEO at Marlow & Finch and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-081",
+  "name": "Caleb Stone",
+  "title": "Director of Partnerships",
+  "company": "Oakstreet Capital",
+  "bio": "Caleb Stone serves as Director of Partnerships at Oakstreet Capital and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-082",
+  "name": "Camila Ibrahim",
+  "title": "Chief Scientist",
+  "company": "Signalfire Media",
+  "bio": "Camila Ibrahim serves as Chief Scientist at Signalfire Media and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-083",
+  "name": "Felix Thompson",
+  "title": "Head of Growth",
+  "company": "Kestrel Systems",
+  "bio": "Felix Thompson serves as Head of Growth at Kestrel Systems and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-084",
+  "name": "Talia Ellsworth",
+  "title": "Venture Partner",
+  "company": "Pinecrest Partners",
+  "bio": "Talia Ellsworth serves as Venture Partner at Pinecrest Partners and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-085",
+  "name": "Simon Pereira",
+  "title": "Chief Operating Officer",
+  "company": "Rooftop Labs",
+  "bio": "Simon Pereira serves as Chief Operating Officer at Rooftop Labs and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-086",
+  "name": "Selena Estrada",
+  "title": "Editor",
+  "company": "Ledgerly",
+  "bio": "Selena Estrada serves as Editor at Ledgerly and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-087",
+  "name": "Noah Patel",
+  "title": "Chief Product Officer",
+  "company": "Parkside Ventures",
+  "bio": "Noah Patel serves as Chief Product Officer at Parkside Ventures and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-088",
+  "name": "Ivy Gupta",
+  "title": "Professor of Practice",
+  "company": "Nimbus Works",
+  "bio": "Ivy Gupta serves as Professor of Practice at Nimbus Works and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-089",
+  "name": "Julian Rivera",
+  "title": "Head of Design",
+  "company": "Cobalt Studio",
+  "bio": "Julian Rivera serves as Head of Design at Cobalt Studio and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-090",
+  "name": "Imani Chaudhry",
+  "title": "Chief Technology Officer",
+  "company": "Evergreen Fund",
+  "bio": "Imani Chaudhry serves as Chief Technology Officer at Evergreen Fund and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-091",
+  "name": "Jonah Nguyen",
+  "title": "Head of Product",
+  "company": "Beacon Analytics",
+  "bio": "Jonah Nguyen serves as Head of Product at Beacon Analytics and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-092",
+  "name": "Yara Cho",
+  "title": "VP of Engineering",
+  "company": "Driftwood Data",
+  "bio": "Yara Cho serves as VP of Engineering at Driftwood Data and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-093",
+  "name": "Hugo Novak",
+  "title": "General Partner",
+  "company": "Highline Capital",
+  "bio": "Hugo Novak serves as General Partner at Highline Capital and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-094",
+  "name": "Liam Edwards",
+  "title": "Founder",
+  "company": "Juniper Security",
+  "bio": "Liam Edwards serves as Founder at Juniper Security and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-095",
+  "name": "Owen Prescott",
+  "title": "Partner",
+  "company": "Lumen Mobility",
+  "bio": "Owen Prescott serves as Partner at Lumen Mobility and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-096",
+  "name": "Hana Abbott",
+  "title": "Director of Partnerships",
+  "company": "Mosaic Health",
+  "bio": "Hana Abbott serves as Director of Partnerships at Mosaic Health and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-097",
+  "name": "Dylan Lombardi",
+  "title": "General Partner",
+  "company": "Northwind Energy",
+  "bio": "Dylan Lombardi serves as General Partner at Northwind Energy and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-098",
+  "name": "Sasha Adler",
+  "title": "Head of Growth",
+  "company": "Orchard Ventures",
+  "bio": "Sasha Adler serves as Head of Growth at Orchard Ventures and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-099",
+  "name": "Elias Lowe",
+  "title": "CEO",
+  "company": "Pixelgrove",
+  "bio": "Elias Lowe serves as CEO at Pixelgrove and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-100",
+  "name": "Amina Castillo",
+  "title": "Chief Operating Officer",
+  "company": "Redbrick Ventures",
+  "bio": "Amina Castillo serves as Chief Operating Officer at Redbrick Ventures and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-101",
+  "name": "Ava Nakamura",
+  "title": "Editor",
+  "company": "Sable Labs",
+  "bio": "Ava Nakamura serves as Editor at Sable Labs and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-102",
+  "name": "Chloe Yamada",
+  "title": "Chief Product Officer",
+  "company": "Tidewater Media",
+  "bio": "Chloe Yamada serves as Chief Product Officer at Tidewater Media and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-103",
+  "name": "Tariq Jacobs",
+  "title": "Founder",
+  "company": "Union Square Fund",
+  "bio": "Tariq Jacobs serves as Founder at Union Square Fund and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-104",
+  "name": "Leila Wallace",
+  "title": "Head of Design",
+  "company": "Vantage Climate",
+  "bio": "Leila Wallace serves as Head of Design at Vantage Climate and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-105",
+  "name": "Miles Joshi",
+  "title": "Co-Founder & COO",
+  "company": "Westbrook Partners",
+  "bio": "Miles Joshi serves as Co-Founder & COO at Westbrook Partners and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-106",
+  "name": "Naomi Alvarez",
+  "title": "Head of Product",
+  "company": "Yardstick",
+  "bio": "Naomi Alvarez serves as Head of Product at Yardstick and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-107",
+  "name": "Leo Lindqvist",
+  "title": "Founder & CEO",
+  "company": "Zephyr Payments",
+  "bio": "Leo Lindqvist serves as Founder & CEO at Zephyr Payments and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-108",
+  "name": "Opal Whitaker",
+  "title": "Chief Revenue Officer",
+  "company": "Foxglove",
+  "bio": "Opal Whitaker serves as Chief Revenue Officer at Foxglove and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-109",
+  "name": "Lucas Holloway",
+  "title": "Founder & CEO",
+  "company": "Granite Row",
+  "bio": "Lucas Holloway serves as Founder & CEO at Granite Row and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-110",
+  "name": "Elise Tanaka",
+  "title": "Partner",
+  "company": "Halcyon AI",
+  "bio": "Elise Tanaka serves as Partner at Halcyon AI and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-111",
+  "name": "Isaac Harlow",
+  "title": "Partner",
+  "company": "Ironwood Capital",
+  "bio": "Isaac Harlow serves as Partner at Ironwood Capital and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-112",
+  "name": "Anika Torres",
+  "title": "Co-Founder",
+  "company": "Kingfisher Labs",
+  "bio": "Anika Torres serves as Co-Founder at Kingfisher Labs and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-113",
+  "name": "Gabriel Jensen",
+  "title": "Head of Growth",
+  "company": "Larkspur",
+  "bio": "Gabriel Jensen serves as Head of Growth at Larkspur and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-114",
+  "name": "Wren Underwood",
+  "title": "Principal",
+  "company": "Maple & Main",
+  "bio": "Wren Underwood serves as Principal at Maple & Main and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-115",
+  "name": "Ravi Fitzgerald",
+  "title": "Partner",
+  "company": "Newgate Media",
+  "bio": "Ravi Fitzgerald serves as Partner at Newgate Media and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-116",
+  "name": "Zoe Ramsey",
+  "title": "Co-Founder & CEO",
+  "company": "Overlook Ventures",
+  "bio": "Zoe Ramsey serves as Co-Founder & CEO at Overlook Ventures and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-117",
+  "name": "Marcus Finch",
+  "title": "Founder & Investor",
+  "company": "Plainfield Bank",
+  "bio": "Marcus Finch serves as Founder & Investor at Plainfield Bank and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-118",
+  "name": "Amelia Reyes",
+  "title": "Co-Founder",
+  "company": "Quarry Studio",
+  "bio": "Amelia Reyes serves as Co-Founder at Quarry Studio and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-119",
+  "name": "Theo Hayes",
+  "title": "Founder & CEO",
+  "company": "Riverbend",
+  "bio": "Theo Hayes serves as Founder & CEO at Riverbend and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-120",
+  "name": "Keiko Sato",
+  "title": "General Partner",
+  "company": "Summit Rail",
+  "bio": "Keiko Sato serves as General Partner at Summit Rail and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-121",
+  "name": "Andre Delgado",
+  "title": "Co-Founder & CTO",
+  "company": "Thistle Health",
+  "bio": "Andre Delgado serves as Co-Founder & CTO at Thistle Health and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-122",
+  "name": "Marta Okafor",
+  "title": "VP of Engineering",
+  "company": "Uplift Works",
+  "bio": "Marta Okafor serves as VP of Engineering at Uplift Works and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-123",
+  "name": "Ethan Dumont",
+  "title": "Founding Partner",
+  "company": "Verity Legal",
+  "bio": "Ethan Dumont serves as Founding Partner at Verity Legal and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-124",
+  "name": "Nina Osei",
+  "title": "CEO",
+  "company": "Wharf Capital",
+  "bio": "Nina Osei serves as CEO at Wharf Capital and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-125",
+  "name": "Victor Foster",
+  "title": "Senior Reporter",
+  "company": "Northbeam Cloud",
+  "bio": "Victor Foster serves as Senior Reporter at Northbeam Cloud and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-126",
+  "name": "Rosa Quinn",
+  "title": "Founder",
+  "company": "Lattice Labs",
+  "bio": "Rosa Quinn serves as Founder at Lattice Labs and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-127",
+  "name": "Rafael Baptiste",
+  "title": "Chief Scientist",
+  "company": "Brightwater Ventures",
+  "bio": "Rafael Baptiste serves as Chief Scientist at Brightwater Ventures and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-128",
+  "name": "Dara Morrow",
+  "title": "Head of Growth",
+  "company": "Cityhop",
+  "bio": "Dara Morrow serves as Head of Growth at Cityhop and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-129",
+  "name": "Kofi Brandt",
+  "title": "Venture Partner",
+  "company": "Frameforge",
+  "bio": "Kofi Brandt serves as Venture Partner at Frameforge and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-130",
+  "name": "Mia Maddox",
+  "title": "Founder & CEO",
+  "company": "Paywise",
+  "bio": "Mia Maddox serves as Founder & CEO at Paywise and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-131",
+  "name": "Caleb Dawson",
+  "title": "CEO & Co-Founder",
+  "company": "Voxwell",
+  "bio": "Caleb Dawson serves as CEO & Co-Founder at Voxwell and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-132",
+  "name": "Camila Ortega",
+  "title": "Chief Product Officer",
+  "company": "Atlas AI",
+  "bio": "Camila Ortega serves as Chief Product Officer at Atlas AI and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-133",
+  "name": "Felix Zimmerman",
+  "title": "Professor of Practice",
+  "company": "Harborlight Capital",
+  "bio": "Felix Zimmerman serves as Professor of Practice at Harborlight Capital and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-134",
+  "name": "Talia Kim",
+  "title": "Head of Design",
+  "company": "Gridwork",
+  "bio": "Talia Kim serves as Head of Design at Gridwork and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-135",
+  "name": "Simon Yilmaz",
+  "title": "Co-Founder & CTO",
+  "company": "Meridian Labs",
+  "bio": "Simon Yilmaz serves as Co-Founder & CTO at Meridian Labs and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-136",
+  "name": "Selena Kessler",
+  "title": "Head of Product",
+  "company": "Bluebird Health",
+  "bio": "Selena Kessler serves as Head of Product at Bluebird Health and speaks on building and funding modern companies in New York.",
+  "featured": false
+ },
+ {
+  "id": "sp-137",
+  "name": "Noah Castillo",
+  "title": "VP of Engineering",
+  "company": "Copperline",
+  "bio": "Noah Castillo serves as VP of Engineering at Copperline and speaks on building and funding modern companies in New York.",
+  "featured": false
+ }
+]

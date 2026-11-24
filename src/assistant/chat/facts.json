@@ -1,0 +1,419 @@
+{
+ "event": {
+  "name": "Eventor Summit",
+  "tagline": "New York, it's time to switch on.",
+  "description": "The summit that brings New York's innovation scene together. Across two days, founders, investors, corporates and local students meet over talks, hands-on workshops and networking.",
+  "note": "Free entry · Limited spots",
+  "tickets": {
+   "label": "Get your ticket",
+   "url": "https://eventor.example/tickets"
+  },
+  "organizers": [
+   "Eventor",
+   "Gotham Founders Club"
+  ],
+  "auspices": [
+   "New York Economic Council",
+   "Manhattan Business Office"
+  ],
+  "contact_email": "hello@eventor.app",
+  "timezone": "America/New_York"
+ },
+ "partners": [
+  {
+   "tier": "Founding sponsors",
+   "names": [
+    "Northbeam Cloud",
+    "Empire State Bank",
+    "Metro Power"
+   ]
+  },
+  {
+   "tier": "Key sponsors",
+   "names": [
+    "Arcade Works",
+    "Brownstone & Co",
+    "Copperline",
+    "Hudson Cloud",
+    "Hudson Ventures",
+    "Riverside Fund",
+    "Skyline Air",
+    "Stonebridge Ventures",
+    "Tidewater Media",
+    "Union Square Fund",
+    "Verity Legal"
+   ]
+  },
+  {
+   "tier": "In-kind sponsors: Food",
+   "names": [
+    "Bagel Lane",
+    "Corner Slice",
+    "Delancey Dumplings",
+    "Harlem Roasters",
+    "Greenmarket Co",
+    "Midtown Taco",
+    "Park Avenue Bakery",
+    "Sunset Noodle Bar",
+    "The Cookie Jar"
+   ]
+  },
+  {
+   "tier": "In-kind sponsors: Beverages",
+   "names": [
+    "Catskill Spring Water",
+    "Gotham Cold Brew"
+   ]
+  },
+  {
+   "tier": "In-kind sponsors: Travel",
+   "names": [
+    "Skyline Air"
+   ]
+  },
+  {
+   "tier": "In-kind sponsors: Merchandise",
+   "names": [
+    "Borough Tees",
+    "Tote & Co"
+   ]
+  },
+  {
+   "tier": "Ecosystem partners",
+   "names": [
+    "Brooklyn Makers Hub",
+    "Chelsea Innovation Zone",
+    "Dumbo Labs",
+    "Flatiron Founders",
+    "Gotham Founders Club",
+    "Hudson Yards Collective",
+    "Impact Capital NYC",
+    "Lattice Ventures",
+    "Meridian Capital",
+    "NYC Open Coffee",
+    "Queens Tech Alliance",
+    "SoHo Startup Society",
+    "Tribeca Angels",
+    "Village Tech Forum",
+    "Williamsburg Founders",
+    "Women in NYC Tech",
+    "Metro Growth Partners",
+    "Open House New York"
+   ]
+  },
+  {
+   "tier": "Community partners",
+   "names": [
+    "Hudson State University",
+    "Metro College of Design",
+    "Gotham Institute of Technology",
+    "Brooklyn Polytechnic",
+    "Code Collective NYC",
+    "Robotics Club NYC",
+    "Student Founders Network",
+    "Hack Harbor",
+    "Women Who Build NYC",
+    "Civic Tech Volunteers",
+    "Open Data NYC",
+    "Queensbridge Makers",
+    "Bronx Coding Guild",
+    "Harbor Space Society"
+   ]
+  },
+  {
+   "tier": "Experience partners",
+   "names": [
+    "Arcade Works",
+    "Parallax VR"
+   ]
+  },
+  {
+   "tier": "Venue partner",
+   "names": [
+    "Hudson Hall"
+   ]
+  },
+  {
+   "tier": "Under the Auspices of",
+   "names": [
+    "City of New York Business Office"
+   ]
+  }
+ ],
+ "venues": [
+  {
+   "id": 1,
+   "name": "Chelsea Pavilion",
+   "lat": 40.749,
+   "lng": -73.999,
+   "sessions_here": [
+    "Opening Night with NYC Open Coffee"
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Hudson Hall",
+   "lat": 40.744,
+   "lng": -74.005,
+   "sessions_here": [
+    "Summit Day"
+   ]
+  }
+ ],
+ "getting_around": {
+  "walk_between_venues_metres": 1060,
+  "walk_between_venues_minutes": 13,
+  "note": "Approximate walking route along the Manhattan street grid; the in-app Map shows both venues and this route."
+ },
+ "app_screens": {
+  "programme": "Programme: every session with times and venue",
+  "speakers": "Speakers: all speaker profiles",
+  "partners": "Partners: organisers and sponsors by tier",
+  "map": "Map: both venues, entrances and the walk between them",
+  "tickets": "Tickets: your ticket and how to get one"
+ },
+ "sessions": [
+  {
+   "id": 1,
+   "title": "Opening Night with NYC Open Coffee",
+   "description": "The summit opens in the heart of Manhattan with short panels and talks. Then a DJ takes over and the conversations run into the night.\n\nAgenda: Official opening; Short panels and talks; Networking & DJ.\n\nDetailed times to be announced.",
+   "start": "Tue 26 May 2026 18:00",
+   "end": "Tue 26 May 2026 23:00",
+   "venue": "Chelsea Pavilion",
+   "speakers": []
+  },
+  {
+   "id": 2,
+   "title": "Summit Day",
+   "description": "A full day of talks, fireside chats, hands-on workshops and demos, with the founders, investors and executives of New York's startup scene on stage and in the room.\n\nAgenda: Registration and welcome coffee; Main stage and workshop stage; Demos and networking; Closing session.\n\nMain stage: Talks, fireside chats and panels with founders and investors. Workshop stage: Hands-on workshops in small groups, built for students and early-stage founders. Demos and networking: Startup demos, 1-1 meetings and a dedicated networking area. Freely accessible food area: Complimentary food and coffee throughout the day, so people stay, talk and meet.\n\nDetailed times to be announced.",
+   "start": "Wed 27 May 2026 09:00",
+   "end": "Wed 27 May 2026 20:00",
+   "venue": "Hudson Hall",
+   "speakers": []
+  }
+ ],
+ "speakers": [
+  {
+   "id": 9,
+   "name": "Abby Banks",
+   "company": "Orchard Ventures",
+   "role": "Head of Innovation"
+  },
+  {
+   "id": 36,
+   "name": "Aiden Abbott",
+   "company": "Lattice Labs",
+   "role": "Founder & CEO"
+  },
+  {
+   "id": 31,
+   "name": "Bianca Brandt",
+   "company": "Voxwell",
+   "role": "Partner"
+  },
+  {
+   "id": 7,
+   "name": "Brett Cruz",
+   "company": "Highline Capital",
+   "role": "Founder"
+  },
+  {
+   "id": 25,
+   "name": "Carlos Castillo",
+   "company": "Paywise",
+   "role": "Head of Innovation"
+  },
+  {
+   "id": 12,
+   "name": "Cora Dunn",
+   "company": "Meridian Labs",
+   "role": "Managing Director"
+  },
+  {
+   "id": 26,
+   "name": "Dana Dawson",
+   "company": "Cityhop",
+   "role": "Founder"
+  },
+  {
+   "id": 35,
+   "name": "Dev Engel",
+   "company": "Stonebridge Ventures",
+   "role": "Co-Founder & CEO"
+  },
+  {
+   "id": 22,
+   "name": "Eden Frost",
+   "company": "Tidewater Media",
+   "role": "General Partner"
+  },
+  {
+   "id": 24,
+   "name": "Elliot Ellis",
+   "company": "Frameforge",
+   "role": "Managing Director"
+  },
+  {
+   "id": 18,
+   "name": "Farah Foster",
+   "company": "Gridwork",
+   "role": "Co-Founder & CEO"
+  },
+  {
+   "id": 16,
+   "name": "Finn Holt",
+   "company": "Verity Legal",
+   "role": "Co-Founder & Managing Partner"
+  },
+  {
+   "id": 17,
+   "name": "Gia Ives",
+   "company": "Northbeam Cloud",
+   "role": "CEO"
+  },
+  {
+   "id": 10,
+   "name": "Grant Gupta",
+   "company": "Bluebird Health",
+   "role": "General Partner"
+  },
+  {
+   "id": 13,
+   "name": "Hank Jain",
+   "company": "Hudson Cloud",
+   "role": "Business Editor"
+  },
+  {
+   "id": 37,
+   "name": "Holly Hayes",
+   "company": "Tandem Robotics",
+   "role": "Co-Founder & Managing Partner"
+  },
+  {
+   "id": 32,
+   "name": "Ian Ibarra",
+   "company": "Fieldnote",
+   "role": "CEO"
+  },
+  {
+   "id": 29,
+   "name": "Isla Kerr",
+   "company": "Empire State Bank",
+   "role": "Co-Founder & CTO"
+  },
+  {
+   "id": 27,
+   "name": "Jada Jensen",
+   "company": "Quillpad",
+   "role": "Business Editor"
+  },
+  {
+   "id": 38,
+   "name": "Jules Lane",
+   "company": "Metro Power",
+   "role": "Co-Founder"
+  },
+  {
+   "id": 6,
+   "name": "Kai Moss",
+   "company": "Brownstone & Co",
+   "role": "Founder & CEO"
+  },
+  {
+   "id": 30,
+   "name": "Kevin Khan",
+   "company": "Kestrel Systems",
+   "role": "Co-Founder & CTO"
+  },
+  {
+   "id": 5,
+   "name": "Lorna Lowe",
+   "company": "Nimbus Works",
+   "role": "Co-Founder"
+  },
+  {
+   "id": 8,
+   "name": "Mason Mercer",
+   "company": "Ledgerly",
+   "role": "Founder & CEO"
+  },
+  {
+   "id": 21,
+   "name": "Nadia Nolan",
+   "company": "Cobalt Studio",
+   "role": "Partner"
+  },
+  {
+   "id": 15,
+   "name": "Oscar Ortiz",
+   "company": "Beacon Analytics",
+   "role": "Head of Innovation"
+  },
+  {
+   "id": 28,
+   "name": "Paige Price",
+   "company": "Juniper Security",
+   "role": "Founder"
+  },
+  {
+   "id": 11,
+   "name": "Quentin Quinn",
+   "company": "Lumen Mobility",
+   "role": "Managing Director"
+  },
+  {
+   "id": 34,
+   "name": "Reese Rhodes",
+   "company": "Mosaic Health",
+   "role": "Co-Founder & CEO"
+  },
+  {
+   "id": 4,
+   "name": "Stella Sato",
+   "company": "Pixelgrove",
+   "role": "General Partner"
+  },
+  {
+   "id": 14,
+   "name": "Trevor Tran",
+   "company": "Sable Labs",
+   "role": "Co-Founder & Managing Partner"
+  },
+  {
+   "id": 19,
+   "name": "Uma Ueda",
+   "company": "Zephyr Payments",
+   "role": "CEO"
+  },
+  {
+   "id": 23,
+   "name": "Victor Vega",
+   "company": "Foxglove",
+   "role": "Business Editor"
+  },
+  {
+   "id": 2,
+   "name": "Wanda Walsh",
+   "company": "Halcyon AI",
+   "role": "Co-Founder & CTO"
+  },
+  {
+   "id": 3,
+   "name": "Xavier Young",
+   "company": "Larkspur",
+   "role": "Co-Founder"
+  },
+  {
+   "id": 33,
+   "name": "Yasmin Zhao",
+   "company": "Riverbend",
+   "role": "Founder & CEO"
+  },
+  {
+   "id": 20,
+   "name": "Zane Archer",
+   "company": "Brightwater Ventures",
+   "role": "Partner"
+  }
+ ]
+}
