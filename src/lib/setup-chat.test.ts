@@ -148,7 +148,7 @@ describe('startup ideas in the chat', () => {
   it('attaches ideas to the reply and lists them in its text for the next turn', () => {
     const state = setupChatReducer(createSetupChatState(initialDraft), {
       type: 'turn',
-      message: 'Spinoff ideas for Greenmarket Co',
+      message: 'Spinoff ideas for Startup 1',
       response: {
         source: 'model',
         name: 'Eventor',

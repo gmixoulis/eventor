@@ -10,11 +10,11 @@
   },
   "organizers": [
    "Eventor",
-   "Gotham Founders Club"
+   "Sponsor 32"
   ],
   "auspices": [
-   "New York Economic Council",
-   "Manhattan Business Office"
+   "Company 66",
+   "Company 67"
   ],
   "contact_email": "hello@eventor.app",
   "timezone": "America/New_York"
@@ -23,108 +23,108 @@
   {
    "tier": "Founding sponsors",
    "names": [
-    "Northbeam Cloud",
-    "Empire State Bank",
-    "Metro Power"
+    "Sponsor 7",
+    "Sponsor 2",
+    "Sponsor 4"
    ]
   },
   {
    "tier": "Key sponsors",
    "names": [
-    "Arcade Works",
-    "Brownstone & Co",
-    "Copperline",
-    "Hudson Cloud",
-    "Hudson Ventures",
-    "Riverside Fund",
-    "Skyline Air",
-    "Stonebridge Ventures",
-    "Tidewater Media",
-    "Union Square Fund",
-    "Verity Legal"
+    "Sponsor 3",
+    "Sponsor 8",
+    "Sponsor 9",
+    "Sponsor 6",
+    "Sponsor 10",
+    "Sponsor 11",
+    "Sponsor 1",
+    "Sponsor 12",
+    "Sponsor 13",
+    "Sponsor 14",
+    "Sponsor 15"
    ]
   },
   {
    "tier": "In-kind sponsors: Food",
    "names": [
-    "Bagel Lane",
-    "Corner Slice",
-    "Delancey Dumplings",
-    "Harlem Roasters",
-    "Greenmarket Co",
-    "Midtown Taco",
-    "Park Avenue Bakery",
-    "Sunset Noodle Bar",
-    "The Cookie Jar"
+    "Sponsor 16",
+    "Sponsor 17",
+    "Sponsor 18",
+    "Sponsor 19",
+    "Startup 1",
+    "Sponsor 20",
+    "Sponsor 21",
+    "Sponsor 22",
+    "Sponsor 23"
    ]
   },
   {
    "tier": "In-kind sponsors: Beverages",
    "names": [
-    "Catskill Spring Water",
-    "Gotham Cold Brew"
+    "Sponsor 24",
+    "Sponsor 25"
    ]
   },
   {
    "tier": "In-kind sponsors: Travel",
    "names": [
-    "Skyline Air"
+    "Sponsor 1"
    ]
   },
   {
    "tier": "In-kind sponsors: Merchandise",
    "names": [
-    "Borough Tees",
-    "Tote & Co"
+    "Sponsor 26",
+    "Sponsor 27"
    ]
   },
   {
    "tier": "Ecosystem partners",
    "names": [
-    "Brooklyn Makers Hub",
-    "Chelsea Innovation Zone",
-    "Dumbo Labs",
-    "Flatiron Founders",
-    "Gotham Founders Club",
-    "Hudson Yards Collective",
-    "Impact Capital NYC",
-    "Lattice Ventures",
-    "Meridian Capital",
-    "NYC Open Coffee",
-    "Queens Tech Alliance",
-    "SoHo Startup Society",
-    "Tribeca Angels",
-    "Village Tech Forum",
-    "Williamsburg Founders",
-    "Women in NYC Tech",
-    "Metro Growth Partners",
-    "Open House New York"
+    "Sponsor 28",
+    "Sponsor 29",
+    "Sponsor 30",
+    "Sponsor 31",
+    "Sponsor 32",
+    "Sponsor 33",
+    "Sponsor 34",
+    "Sponsor 35",
+    "Sponsor 36",
+    "Sponsor 37",
+    "Sponsor 38",
+    "Sponsor 39",
+    "Sponsor 40",
+    "Sponsor 41",
+    "Sponsor 42",
+    "Sponsor 43",
+    "Sponsor 44",
+    "Sponsor 45"
    ]
   },
   {
    "tier": "Community partners",
    "names": [
-    "Hudson State University",
-    "Metro College of Design",
-    "Gotham Institute of Technology",
-    "Brooklyn Polytechnic",
-    "Code Collective NYC",
-    "Robotics Club NYC",
-    "Student Founders Network",
-    "Hack Harbor",
-    "Women Who Build NYC",
-    "Civic Tech Volunteers",
-    "Open Data NYC",
-    "Queensbridge Makers",
-    "Bronx Coding Guild",
-    "Harbor Space Society"
+    "Sponsor 46",
+    "Sponsor 47",
+    "Sponsor 48",
+    "Sponsor 49",
+    "Sponsor 50",
+    "Sponsor 51",
+    "Sponsor 52",
+    "Sponsor 53",
+    "Sponsor 54",
+    "Sponsor 55",
+    "Sponsor 56",
+    "Sponsor 57",
+    "Sponsor 58",
+    "Sponsor 59"
    ]
   },
   {
    "tier": "Experience partners",
    "names": [
-    "Arcade Works",
-    "Parallax VR"
+    "Sponsor 3",
+    "Sponsor 60"
    ]
   },
   {
@@ -136,7 +136,7 @@
   {
    "tier": "Under the Auspices of",
    "names": [
-    "City of New York Business Office"
+    "Sponsor 61"
    ]
   }
  ],
@@ -144,17 +144,17 @@
   {
    "id": 1,
    "name": "Chelsea Pavilion",
-   "lat": 40.749,
-   "lng": -73.999,
+   "lat": 40.7205,
+   "lng": -74.0085,
    "sessions_here": [
-    "Opening Night with NYC Open Coffee"
+    "Opening Night with Sponsor 37"
    ]
   },
   {
    "id": 2,
    "name": "Hudson Hall",
-   "lat": 40.744,
-   "lng": -74.005,
+   "lat": 40.7127,
+   "lng": -74.0059,
    "sessions_here": [
     "Summit Day"
    ]
@@ -175,7 +175,7 @@
  "sessions": [
   {
    "id": 1,
-   "title": "Opening Night with NYC Open Coffee",
+   "title": "Opening Night with Sponsor 37",
    "description": "The summit opens in the heart of Manhattan with short panels and talks. Then a DJ takes over and the conversations run into the night.\n\nAgenda: Official opening; Short panels and talks; Networking & DJ.\n\nDetailed times to be announced.",
    "start": "Tue 26 May 2026 18:00",
    "end": "Tue 26 May 2026 23:00",
@@ -195,224 +195,224 @@
  "speakers": [
   {
    "id": 9,
-   "name": "Abby Banks",
-   "company": "Orchard Ventures",
+   "name": "Speaker 138",
+   "company": "Company 32",
    "role": "Head of Innovation"
   },
   {
    "id": 36,
-   "name": "Aiden Abbott",
-   "company": "Lattice Labs",
+   "name": "Speaker 139",
+   "company": "Company 2",
    "role": "Founder & CEO"
   },
   {
    "id": 31,
-   "name": "Bianca Brandt",
-   "company": "Voxwell",
+   "name": "Speaker 140",
+   "company": "Company 1",
    "role": "Partner"
   },
   {
    "id": 7,
-   "name": "Brett Cruz",
-   "company": "Highline Capital",
+   "name": "Speaker 141",
+   "company": "Company 27",
    "role": "Founder"
   },
   {
    "id": 25,
-   "name": "Carlos Castillo",
-   "company": "Paywise",
+   "name": "Speaker 142",
+   "company": "Company 4",
    "role": "Head of Innovation"
   },
   {
    "id": 12,
-   "name": "Cora Dunn",
-   "company": "Meridian Labs",
+   "name": "Speaker 143",
+   "company": "Company 9",
    "role": "Managing Director"
   },
   {
    "id": 26,
-   "name": "Dana Dawson",
-   "company": "Cityhop",
+   "name": "Speaker 144",
+   "company": "Company 5",
    "role": "Founder"
   },
   {
    "id": 35,
-   "name": "Dev Engel",
-   "company": "Stonebridge Ventures",
+   "name": "Speaker 145",
+   "company": "Sponsor 12",
    "role": "Co-Founder & CEO"
   },
   {
    "id": 22,
-   "name": "Eden Frost",
-   "company": "Tidewater Media",
+   "name": "Speaker 146",
+   "company": "Sponsor 13",
    "role": "General Partner"
   },
   {
    "id": 24,
-   "name": "Elliot Ellis",
-   "company": "Frameforge",
+   "name": "Speaker 147",
+   "company": "Company 6",
    "role": "Managing Director"
   },
   {
    "id": 18,
-   "name": "Farah Foster",
-   "company": "Gridwork",
+   "name": "Speaker 148",
+   "company": "Company 55",
    "role": "Co-Founder & CEO"
   },
   {
    "id": 16,
-   "name": "Finn Holt",
-   "company": "Verity Legal",
+   "name": "Speaker 149",
+   "company": "Sponsor 15",
    "role": "Co-Founder & Managing Partner"
   },
   {
    "id": 17,
-   "name": "Gia Ives",
-   "company": "Northbeam Cloud",
+   "name": "Speaker 150",
+   "company": "Sponsor 7",
    "role": "CEO"
   },
   {
    "id": 10,
-   "name": "Grant Gupta",
-   "company": "Bluebird Health",
+   "name": "Speaker 151",
+   "company": "Company 10",
    "role": "General Partner"
   },
   {
    "id": 13,
-   "name": "Hank Jain",
-   "company": "Hudson Cloud",
+   "name": "Speaker 152",
+   "company": "Sponsor 6",
    "role": "Business Editor"
   },
   {
    "id": 37,
-   "name": "Holly Hayes",
-   "company": "Tandem Robotics",
+   "name": "Speaker 153",
+   "company": "Company 12",
    "role": "Co-Founder & Managing Partner"
   },
   {
    "id": 32,
-   "name": "Ian Ibarra",
-   "company": "Fieldnote",
+   "name": "Speaker 154",
+   "company": "Company 13",
    "role": "CEO"
   },
   {
    "id": 29,
-   "name": "Isla Kerr",
-   "company": "Empire State Bank",
+   "name": "Speaker 155",
+   "company": "Sponsor 2",
    "role": "Co-Founder & CTO"
   },
   {
    "id": 27,
-   "name": "Jada Jensen",
-   "company": "Quillpad",
+   "name": "Speaker 156",
+   "company": "Company 11",
    "role": "Business Editor"
   },
   {
    "id": 38,
-   "name": "Jules Lane",
-   "company": "Metro Power",
+   "name": "Speaker 157",
+   "company": "Sponsor 4",
    "role": "Co-Founder"
   },
   {
    "id": 6,
-   "name": "Kai Moss",
-   "company": "Brownstone & Co",
+   "name": "Speaker 158",
+   "company": "Sponsor 8",
    "role": "Founder & CEO"
   },
   {
    "id": 30,
-   "name": "Kevin Khan",
-   "company": "Kestrel Systems",
+   "name": "Speaker 159",
+   "company": "Company 17",
    "role": "Co-Founder & CTO"
   },
   {
    "id": 5,
-   "name": "Lorna Lowe",
-   "company": "Nimbus Works",
+   "name": "Speaker 160",
+   "company": "Company 22",
    "role": "Co-Founder"
   },
   {
    "id": 8,
-   "name": "Mason Mercer",
-   "company": "Ledgerly",
+   "name": "Speaker 161",
+   "company": "Company 20",
    "role": "Founder & CEO"
   },
   {
    "id": 21,
-   "name": "Nadia Nolan",
-   "company": "Cobalt Studio",
+   "name": "Speaker 162",
+   "company": "Company 23",
    "role": "Partner"
   },
   {
    "id": 15,
-   "name": "Oscar Ortiz",
-   "company": "Beacon Analytics",
+   "name": "Speaker 163",
+   "company": "Company 25",
    "role": "Head of Innovation"
   },
   {
    "id": 28,
-   "name": "Paige Price",
-   "company": "Juniper Security",
+   "name": "Speaker 164",
+   "company": "Company 28",
    "role": "Founder"
   },
   {
    "id": 11,
-   "name": "Quentin Quinn",
-   "company": "Lumen Mobility",
+   "name": "Speaker 165",
+   "company": "Company 29",
    "role": "Managing Director"
   },
   {
    "id": 34,
-   "name": "Reese Rhodes",
-   "company": "Mosaic Health",
+   "name": "Speaker 166",
+   "company": "Company 30",
    "role": "Co-Founder & CEO"
   },
   {
    "id": 4,
-   "name": "Stella Sato",
-   "company": "Pixelgrove",
+   "name": "Speaker 167",
+   "company": "Company 33",
    "role": "General Partner"
   },
   {
    "id": 14,
-   "name": "Trevor Tran",
-   "company": "Sable Labs",
+   "name": "Speaker 168",
+   "company": "Company 35",
    "role": "Co-Founder & Managing Partner"
   },
   {
    "id": 19,
-   "name": "Uma Ueda",
-   "company": "Zephyr Payments",
+   "name": "Speaker 169",
+   "company": "Company 39",
    "role": "CEO"
   },
   {
    "id": 23,
-   "name": "Victor Vega",
-   "company": "Foxglove",
+   "name": "Speaker 170",
+   "company": "Company 40",
    "role": "Business Editor"
   },
   {
    "id": 2,
-   "name": "Wanda Walsh",
-   "company": "Halcyon AI",
+   "name": "Speaker 171",
+   "company": "Company 42",
    "role": "Co-Founder & CTO"
   },
   {
    "id": 3,
-   "name": "Xavier Young",
-   "company": "Larkspur",
+   "name": "Speaker 172",
+   "company": "Company 45",
    "role": "Co-Founder"
   },
   {
    "id": 33,
-   "name": "Yasmin Zhao",
-   "company": "Riverbend",
+   "name": "Speaker 173",
+   "company": "Company 50",
    "role": "Founder & CEO"
   },
   {
    "id": 20,
-   "name": "Zane Archer",
-   "company": "Brightwater Ventures",
+   "name": "Speaker 174",
+   "company": "Company 3",
    "role": "Partner"
   }
  ]

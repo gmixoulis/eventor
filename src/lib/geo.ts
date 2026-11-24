@@ -2,8 +2,8 @@
 
 export type LngLat = [longitude: number, latitude: number];
 
-// Venue centre for the demo map, in central Manhattan (replace with your venue).
-export const VENUE_CENTER: LngLat = [-73.9990, 40.7490];
+// Venue centre for the demo map: New York City Hall, Lower Manhattan (replace with your venue).
+export const VENUE_CENTER: LngLat = [-74.0059390, 40.7127395];
 
 export const EARTH_RADIUS = 6371008.8;
 export const RAD = Math.PI / 180;

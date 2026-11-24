@@ -40,7 +40,7 @@ export const FEATURES: Feature[] = [
   { id: 'speakers', label: 'Speakers', default: true, dependsOn: [], paths: ['/speakers', '/speaker'] },
   { id: 'sponsors', label: 'Sponsors', default: true, dependsOn: [], paths: ['/sponsors', '/sponsor'] },
   { id: 'guide', label: 'Guide', default: true, dependsOn: [], paths: ['/guide'] },
-  { id: 'map', label: 'Map', default: true, dependsOn: [], paths: ['/map', '/map2'] },
+  { id: 'map', label: 'Map', default: true, dependsOn: [], paths: ['/map'] },
   { id: 'sideEvents', label: 'Side events', default: true, dependsOn: [], paths: ['/side-events', '/side-event'] },
   { id: 'sideEventRequests', label: 'Side event requests', default: true, dependsOn: ['sideEvents'], paths: ['/organizer/requests', '/organizer/admins'] },
   { id: 'ask', label: 'Ask', default: true, dependsOn: [], paths: ['/ask'] },

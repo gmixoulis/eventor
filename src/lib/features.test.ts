@@ -48,7 +48,7 @@ describe('featureForPath', () => {
     expect(featureForPath('/session/s1')).toBe('schedule');
     expect(featureForPath('/person/p1')).toBe('people');
     expect(featureForPath('/chat/p1')).toBe('meetings');
-    expect(featureForPath('/map2')).toBe('map');
+    expect(featureForPath('/map')).toBe('map');
     expect(featureForPath('/qr')).toBe('qrCode');
     expect(featureForPath('/tickets')).toBe('tickets');
     expect(featureForPath('/tickets/checkout')).toBe('tickets');

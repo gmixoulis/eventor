@@ -101,7 +101,7 @@ export const sessions: Session[] = [
   },
   {
     id: 's-lab-to-product',
-    title: 'From Lab to Product: The Lattice Story',
+    title: 'From Lab to Product: The Company 2 Story',
     description: 'A conversation on turning bleeding-edge research into a product customers actually pay for.',
     dayId: '2026-05-27',
     stageId: 'stage-hudson',
@@ -201,7 +201,7 @@ export const sessions: Session[] = [
   },
   {
     id: 's-runway-new-studio',
-    title: 'Frameforge and the New Studio',
+    title: 'Company 6 and the New Studio',
     description: 'A hands-on look at how AI tools fit into a modern film and video production pipeline.',
     dayId: '2026-05-28',
     stageId: 'stage-hudson',
@@ -225,7 +225,7 @@ export const sessions: Session[] = [
   },
   {
     id: 's-openai-for-startups',
-    title: 'Atlas AI for Startups',
+    title: 'Company 7 for Startups',
     description: 'A working session on shipping with frontier models, from fine-tuning to production guardrails.',
     dayId: '2026-05-28',
     stageId: 'stage-cinema',
@@ -250,7 +250,7 @@ export const sessions: Session[] = [
   },
   {
     id: 's-microsoft-playbook',
-    title: "Northbeam's Startup Playbook",
+    title: "Sponsor 7's Startup Playbook",
     description: 'How one of the largest cloud platforms thinks about partnering with early-stage companies.',
     dayId: '2026-05-28',
     stageId: 'stage-chelsea',
@@ -313,7 +313,7 @@ export const sessions: Session[] = [
   },
   {
     id: 's-bolt-road-unicorn',
-    title: "Cityhop's Road to a Unicorn",
+    title: "Company 5's Road to a Unicorn",
     description: 'A fireside chat on the early decisions that compounded into one of the region\u2019s fastest scale-ups.',
     dayId: '2026-05-29',
     stageId: 'stage-chelsea',
@@ -513,7 +513,7 @@ const allNetworkSelections: Selection[] = interests.map((interest) => ({
 
 export const people: Person[] = [
   {
-    id: 'person-1', name: 'Emily Carter', role: 'Startup', title: 'Founder & CEO', company: 'Greenmarket Co',
+    id: 'person-1', name: 'Attendee 1', role: 'Startup', title: 'Founder & CEO', company: 'Startup 1',
     intro: 'Building a platform that helps small farmers sell directly to restaurants.', industry: 'Foodtech',
     countries: ['United States'], lastActiveAt: '2026-05-26T09:00:00',
     selections: [
@@ -524,7 +524,7 @@ export const people: Person[] = [
     ],
   },
   {
-    id: 'person-2', name: 'Daniel Kim', role: 'Investor', title: 'Principal', company: 'Hudson Ventures',
+    id: 'person-2', name: 'Attendee 2', role: 'Investor', title: 'Principal', company: 'Sponsor 10',
     intro: 'Early-stage investor focused on fintech and marketplaces across the Northeast.', industry: 'Fintech',
     countries: ['United States', 'United Kingdom'], lastActiveAt: '2026-05-25T14:00:00',
     selections: [
@@ -535,7 +535,7 @@ export const people: Person[] = [
     ],
   },
   {
-    id: 'person-3', name: 'Sofia Alvarez', role: 'Startup', title: 'Co-Founder', company: 'Gotham Robotics',
+    id: 'person-3', name: 'Attendee 3', role: 'Startup', title: 'Co-Founder', company: 'Startup 2',
     intro: 'Designing warehouse robots that work safely alongside people.', industry: 'Robotics',
     countries: ['United States', 'Germany'], lastActiveAt: '2026-05-24T10:00:00',
     selections: [
@@ -545,7 +545,7 @@ export const people: Person[] = [
     ],
   },
   {
-    id: 'person-4', name: 'Nathan Brooks', role: 'Corporate', title: 'Head of Innovation', company: 'Metro Telecom',
+    id: 'person-4', name: 'Attendee 4', role: 'Corporate', title: 'Head of Innovation', company: 'Organizer 4',
     intro: 'Scouting startups and running pilots across a national telecom operator.', industry: 'Telecom',
     countries: ['United States'], lastActiveAt: '2026-05-23T16:00:00',
     selections: [
@@ -556,7 +556,7 @@ export const people: Person[] = [
     ],
   },
   {
-    id: 'person-5', name: 'Amara Okafor', role: 'Investor', title: 'Partner', company: 'Northgate Capital',
+    id: 'person-5', name: 'Attendee 5', role: 'Investor', title: 'Partner', company: 'Company 58',
     intro: 'Invests in founders building financial tools for emerging markets.', industry: 'Fintech',
     countries: ['Nigeria', 'United Kingdom'], lastActiveAt: '2026-05-22T11:00:00',
     selections: [
@@ -568,7 +568,7 @@ export const people: Person[] = [
     ],
   },
   {
-    id: 'person-6', name: 'Lukas Steiner', role: 'Startup', title: 'CTO', company: 'Nordwind Energy',
+    id: 'person-6', name: 'Attendee 6', role: 'Startup', title: 'CTO', company: 'Organizer 3',
     intro: 'Leading engineering on a home energy-storage product for the DACH market.', industry: 'Climate',
     countries: ['Austria'], lastActiveAt: '2026-05-21T09:00:00',
     selections: [
@@ -578,13 +578,13 @@ export const people: Person[] = [
     ],
   },
   {
-    id: 'person-7', name: 'Maria Santos', role: 'Media', title: 'Journalist', company: 'The New York Ledger',
+    id: 'person-7', name: 'Attendee 7', role: 'Media', title: 'Journalist', company: 'Company 59',
     intro: 'Covers the startup and venture scene across the New York area.', industry: 'Media',
     countries: ['United States'], lastActiveAt: '2026-05-26T18:00:00',
     selections: allNetworkSelections,
   },
   {
-    id: 'person-8', name: 'Jonas Berg', role: 'Corporate', title: 'Innovation Lead', company: 'Nordic Labs',
+    id: 'person-8', name: 'Attendee 8', role: 'Corporate', title: 'Innovation Lead', company: 'Company 60',
     intro: 'Runs open-innovation programs for a life-sciences research group.', industry: 'Life Sciences',
     countries: ['Sweden'], lastActiveAt: '2026-05-20T13:00:00',
     selections: [
@@ -594,7 +594,7 @@ export const people: Person[] = [
     ],
   },
   {
-    id: 'person-9', name: 'Katie Dunn', role: 'Startup', title: 'Founder', company: 'Melody Minds',
+    id: 'person-9', name: 'Attendee 9', role: 'Startup', title: 'Founder', company: 'Startup 3',
     intro: 'Building a music-learning app that adapts to how each student practices.', industry: 'Music',
     countries: ['United States'], lastActiveAt: '2026-05-25T08:00:00',
     selections: [
@@ -604,7 +604,7 @@ export const people: Person[] = [
     ],
   },
   {
-    id: 'person-10', name: 'Theo Renard', role: 'Investor', title: 'Angel Investor', company: 'Independent',
+    id: 'person-10', name: 'Attendee 10', role: 'Investor', title: 'Angel Investor', company: 'Independent',
     intro: 'Writes small checks into early gaming and consumer startups.', industry: 'Gaming',
     countries: ['France'], lastActiveAt: '2026-05-19T15:00:00',
     selections: [
@@ -616,7 +616,7 @@ export const people: Person[] = [
     ],
   },
   {
-    id: 'person-11', name: 'Rachel Ortiz', role: 'Startup', title: 'CEO', company: 'Harbor Drift',
+    id: 'person-11', name: 'Attendee 11', role: 'Startup', title: 'CEO', company: 'Startup 4',
     intro: 'Building an electric boat-rental network for harbor tourism.', industry: 'Travel',
     countries: ['United States'], lastActiveAt: '2026-05-24T17:00:00',
     selections: [
@@ -626,7 +626,7 @@ export const people: Person[] = [
     ],
   },
   {
-    id: 'person-12', name: 'Felix Wagner', role: 'Corporate', title: 'Partnerships Director', company: 'Alpine Systems',
+    id: 'person-12', name: 'Attendee 12', role: 'Corporate', title: 'Partnerships Director', company: 'Company 61',
     intro: 'Leads partnerships for a contract-automation software company.', industry: 'Legaltech',
     countries: ['Germany'], lastActiveAt: '2026-05-18T10:00:00',
     selections: [
@@ -636,7 +636,7 @@ export const people: Person[] = [
     ],
   },
   {
-    id: 'person-13', name: 'Jamal Reed', role: 'Startup', title: 'Founder', company: 'Bridgeway Health',
+    id: 'person-13', name: 'Attendee 13', role: 'Startup', title: 'Founder', company: 'Startup 5',
     intro: 'Building remote-monitoring tools for chronic-care clinics.', industry: 'Health & Wellbeing',
     countries: ['United States'], lastActiveAt: '2026-05-23T12:00:00',
     selections: [
@@ -647,7 +647,7 @@ export const people: Person[] = [
     ],
   },
   {
-    id: 'person-14', name: 'Ines Moreau', role: 'Investor', title: 'Associate', company: 'Riverside Fund',
+    id: 'person-14', name: 'Attendee 14', role: 'Investor', title: 'Associate', company: 'Sponsor 11',
     intro: 'Backs biotech and digital-health companies at seed and Series A.', industry: 'Life Sciences',
     countries: ['France'], lastActiveAt: '2026-05-17T09:00:00',
     selections: [
@@ -658,7 +658,7 @@ export const people: Person[] = [
     ],
   },
   {
-    id: 'person-15', name: 'Andrew Cole', role: 'Startup', title: 'Co-Founder', company: 'Pixel Forge',
+    id: 'person-15', name: 'Attendee 15', role: 'Startup', title: 'Co-Founder', company: 'Startup 6',
     intro: 'Making a game engine for small teams building stylized 3D worlds.', industry: 'Gaming',
     countries: ['United States'], lastActiveAt: '2026-05-22T14:00:00',
     selections: [
@@ -669,13 +669,13 @@ export const people: Person[] = [
     ],
   },
   {
-    id: 'person-16', name: 'Lena Hoffmann', role: 'Media', title: 'Producer', company: 'Berlin Screen',
+    id: 'person-16', name: 'Attendee 16', role: 'Media', title: 'Producer', company: 'Company 62',
     intro: 'Produces independent film and documentary projects across Europe.', industry: 'Visual Arts',
     countries: ['Germany'], lastActiveAt: '2026-05-26T20:00:00',
     selections: allNetworkSelections,
   },
   {
-    id: 'person-17', name: 'Peter Anders', role: 'Corporate', title: 'Digital Director', company: 'Brownstone & Co',
+    id: 'person-17', name: 'Attendee 17', role: 'Corporate', title: 'Digital Director', company: 'Sponsor 8',
     intro: 'Leads digital transformation for a heritage retail group.', industry: 'Retail',
     countries: ['United States'], lastActiveAt: '2026-05-21T11:00:00',
     selections: [
@@ -685,7 +685,7 @@ export const people: Person[] = [
     ],
   },
   {
-    id: 'person-18', name: 'Maya Patel', role: 'Startup', title: 'Founder', company: 'Orbit Legal',
+    id: 'person-18', name: 'Attendee 18', role: 'Startup', title: 'Founder', company: 'Company 63',
     intro: 'Building self-serve legal tools for early-stage founders.', industry: 'Legaltech',
     countries: ['United Kingdom'], lastActiveAt: '2026-05-25T13:00:00',
     selections: [
@@ -695,7 +695,7 @@ export const people: Person[] = [
     ],
   },
   {
-    id: 'person-19', name: 'Gareth Lowell', role: 'Investor', title: 'Managing Partner', company: 'Empire Capital Partners',
+    id: 'person-19', name: 'Attendee 19', role: 'Investor', title: 'Managing Partner', company: 'Company 64',
     intro: 'Invests in deep tech with a focus on space and defense.', industry: 'Space Tech',
     countries: ['United States'], lastActiveAt: '2026-05-20T16:00:00',
     selections: [
@@ -706,7 +706,7 @@ export const people: Person[] = [
     ],
   },
   {
-    id: 'person-20', name: 'Anna Chen', role: 'Startup', title: 'CMO', company: 'Wave Media',
+    id: 'person-20', name: 'Attendee 20', role: 'Startup', title: 'CMO', company: 'Company 65',
     intro: 'Leads marketing for a creator-economy analytics startup.', industry: 'Media',
     countries: ['United States'], lastActiveAt: '2026-05-26T10:00:00',
     selections: [
@@ -726,7 +726,7 @@ export const sponsorTiers: SponsorTier[] = [
     sponsors: [
       {
         id: 'sponsor-skyline',
-        name: 'Skyline Air',
+        name: 'Sponsor 1',
         tierId: 'tier-founding-year1',
         description: 'A major U.S. airline, flying attendees to the summit from across the country.',
         interestIds: ['group-industry-travel', 'group-industry-media'],
@@ -735,7 +735,7 @@ export const sponsorTiers: SponsorTier[] = [
       },
       {
         id: 'sponsor-nbg',
-        name: 'Empire State Bank',
+        name: 'Sponsor 2',
         tierId: 'tier-founding-year1',
         description: 'One of the city\u2019s oldest banks, backing founders with capital and advice.',
         interestIds: ['group-industry-fintech', 'group-investment-type-angel-investment', 'group-startup-stage-early-stage-pre-seed-and-seed'],
@@ -751,7 +751,7 @@ export const sponsorTiers: SponsorTier[] = [
     sponsors: [
       {
         id: 'sponsor-kaizen',
-        name: 'Arcade Works',
+        name: 'Sponsor 3',
         tierId: 'tier-founding',
         description: 'A gaming and technology company behind some of the most played platforms in North America.',
         interestIds: ['group-industry-gaming', 'group-industry-media', 'group-industry-visual-arts'],
@@ -760,7 +760,7 @@ export const sponsorTiers: SponsorTier[] = [
       },
       {
         id: 'sponsor-dei',
-        name: 'Metro Power',
+        name: 'Sponsor 4',
         tierId: 'tier-founding',
         description: 'A regional power utility, investing in energy and climate startups.',
         interestIds: ['group-industry-social-impact', 'group-industry-robotics', 'group-industry-space-tech'],
@@ -776,7 +776,7 @@ export const sponsorTiers: SponsorTier[] = [
     sponsors: [
       {
         id: 'sponsor-deep-capital',
-        name: 'Deep Capital Group',
+        name: 'Sponsor 5',
         tierId: 'tier-investing',
         description: 'A venture firm backing technical founders across North America and Europe.',
         interestIds: ['group-industry-fintech', 'group-industry-life-sciences', 'group-investment-type-series-a'],
@@ -792,7 +792,7 @@ export const sponsorTiers: SponsorTier[] = [
     sponsors: [
       {
         id: 'sponsor-helios-cloud',
-        name: 'Hudson Cloud',
+        name: 'Sponsor 6',
         tierId: 'tier-technology',
         description: 'Cloud infrastructure provider powering the summit app and demos.',
         interestIds: ['group-industry-fintech', 'group-industry-robotics', 'group-industry-space-tech'],

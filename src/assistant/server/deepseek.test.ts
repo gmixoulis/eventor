@@ -5,7 +5,7 @@ import {
 } from '@/assistant/server/deepseek';
 import type { ModelFetch } from '@/assistant/server/types';
 
-const prompt = { system: 'Use facts only.', user: 'Greenmarket Co facts', allowedUrls: [] };
+const prompt = { system: 'Use facts only.', user: 'Startup 1 facts', allowedUrls: [] };
 const payload = {
   choices: [{ message: { content: 'An event answer.', reasoning_content: 'Do not return this' } }],
   usage: { prompt_cache_miss_tokens: 1500, prompt_cache_hit_tokens: 500, completion_tokens: 350 },

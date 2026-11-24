@@ -1,11 +1,9 @@
 import { FontAwesome5 } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
-import { router } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
 import { BackHandler, Keyboard, Platform, Pressable, StyleSheet, Text, TextInput, TurboModuleRegistry, View, type TextInputInstance } from 'react-native';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { EmptyState } from '@/components/empty-state';
 import { ScreenHeader } from '@/components/screen-header';
 import { makeStyles, useTheme } from '@/components/theme';
 import { CheckpointScanner } from '@/components/venue/checkpoint-scanner';
@@ -38,7 +36,8 @@ const RealMap: typeof RealMapComponent | undefined = Platform.OS !== 'web' && Tu
   ? require('@/components/venue/real-map').RealMap : undefined;
 
 /**
- * The venue map screen, shared by "Map" (schematic drawing, the default) and "Map 2" (real MapLibre map, beta).
+ * The venue map screen. "Map" shows the real MapLibre street map (OpenStreetMap tiles) by default and
+ * falls back to the schematic drawing where the native map engine is unavailable (web, Expo Go, offline).
  * Search, filters, list, place sheet, directions and the position readout are the same in both.
  */
 export function VenueMapScreen({ variant }: { variant: 'schematic' | 'real' }) {
@@ -147,31 +146,13 @@ export function VenueMapScreen({ variant }: { variant: 'schematic' | 'real' }) {
   const scanControl = <Pressable accessibilityRole="button" accessibilityLabel="Scan a checkpoint" onPress={() => setScanning(true)} style={[styles.control, styles.segment]}>
     <FontAwesome5 name="qrcode" size={15} color={colors.text} />
   </Pressable>;
-  const title = variant === 'real' ? 'Map 2' : 'Map';
-  const switchLink = <View style={styles.strip}>
-    {variant === 'real' ? <Text style={styles.beta}>Beta</Text> : null}
-    <Pressable accessibilityRole="link" accessibilityLabel={variant === 'real' ? 'Back to the simple map' : 'Try the real map, Map 2'} hitSlop={8}
-      onPress={() => router.replace(variant === 'real' ? '/map' : '/map2')}>
-      <Text style={styles.link}>{variant === 'real' ? 'Back to the simple map' : 'Try the real map (Map 2)'}</Text>
-    </Pressable>
-  </View>;
-
-  if (variant === 'real' && !real) {
-    return <SafeAreaView edges={['left', 'right']} style={styles.page}>
-      <ScreenHeader title={title} variant="stack" />
-      {switchLink}
-      <EmptyState icon="map-marker-off-outline" title="The real map could not load"
-        body="Map 2 needs an internet connection the first time it opens and an app build that includes the map engine. The simple map works offline."
-        action={{ label: 'Open Map', onPress: () => router.replace('/map') }} />
-    </SafeAreaView>;
-  }
+  const title = 'Map';
   const walkControls = simulated && route && route.segments.length ? <WalkControls walker={walker} onStop={stopWalk}
     onStart={() => { setWalkFrom(anchor ?? entranceLngLat); walker.start(); }} /> : null;
 
   return (
     <SafeAreaView edges={['left', 'right']} style={styles.page}>
       <ScreenHeader title={title} variant="stack" />
-      {switchLink}
       <View style={styles.area}>
         <View style={[styles.canvas, journey && styles.routingCanvas]} accessibilityElementsHidden={!!selected || showList}
           importantForAccessibility={selected || showList ? 'no-hide-descendants' : 'auto'}>
@@ -270,9 +251,5 @@ const useStyles = makeStyles(({ colors, shadow }) => StyleSheet.create({
   crowdLegend: { position: 'absolute', left: spacing.md },
   segment: { borderRadius: radius.sm, backgroundColor: colors.card, ...shadow.card },
   control: { width: 44, height: 44, borderRadius: radius.sm, justifyContent: 'center', alignItems: 'center' },
-  strip: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, paddingHorizontal: spacing.lg, paddingVertical: spacing.xs },
-  beta: { ...typeScale.overline, color: colors.onAccent, backgroundColor: colors.accent, paddingHorizontal: spacing.sm, paddingVertical: 2,
-    borderRadius: radius.xs, overflow: 'hidden' },
-  link: { ...typeScale.label, color: colors.primary, textDecorationLine: 'underline' },
   dim: { ...StyleSheet.absoluteFill, zIndex: 4, backgroundColor: colors.overlay },
 }));

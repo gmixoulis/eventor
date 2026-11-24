@@ -6,7 +6,7 @@ import {
 } from '@/assistant/server/gemini';
 import type { ModelFetch } from '@/assistant/server/types';
 
-const prompt = { system: 'Use facts only.', user: 'Greenmarket Co facts', allowedUrls: [] };
+const prompt = { system: 'Use facts only.', user: 'Startup 1 facts', allowedUrls: [] };
 const payload = {
   candidates: [{ content: { role: 'model', parts: [{ text: 'Thinking aloud', thought: true }, { text: 'An event answer.' }] }, finishReason: 'STOP' }],
   usageMetadata: { promptTokenCount: 2000, candidatesTokenCount: 300, thoughtsTokenCount: 50, totalTokenCount: 2350 },

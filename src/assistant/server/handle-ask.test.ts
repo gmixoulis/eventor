@@ -15,8 +15,8 @@ function request(input: unknown = body, headers = {}): Request {
 function deps(): AskDeps {
   return {
     ...memoryStores(() => Date.parse(time), LIMITS), now: () => Date.parse(time),
-    summaries: { 'sponsor:sponsor-skyline': 'Skyline Air flies attendees to the festival.' },
-    generate: jest.fn<AskDeps['generate']>(async () => ({ text: 'Greenmarket Co connects farmers and restaurants.', costUsd: 0.0009 })),
+    summaries: { 'sponsor:sponsor-skyline': 'Sponsor 1 flies attendees to the festival.' },
+    generate: jest.fn<AskDeps['generate']>(async () => ({ text: 'Startup 1 connects farmers and restaurants.', costUsd: 0.0009 })),
     prices: DEEPSEEK_PRICES, maxInflight: 50, dailyCapUsd: 5, cacheVersion: 'test',
   };
 }
@@ -83,7 +83,7 @@ describe('rate limits', () => {
     const services = deps();
     services.rateLimit = jest.fn(async () => []);
     services.modelLimit = jest.fn(async () => true);
-    await handleAsk(request({ ...body, question: 'What is Greenmarket Co building?' }, { 'x-forwarded-for': '2001:db8:1:2:aaaa::1' }), services);
+    await handleAsk(request({ ...body, question: 'What is Startup 1 building?' }, { 'x-forwarded-for': '2001:db8:1:2:aaaa::1' }), services);
     expect(services.rateLimit).toHaveBeenCalledWith(body.installId, '2001:db8:1:2::/64');
     expect(services.modelLimit).toHaveBeenCalledWith('2001:db8:1:2::/64');
   });
@@ -116,12 +116,12 @@ describe('answer cache and core integration', () => {
     expect((await address("what's next", '2026-05-28T11:30:00Z')).key).not.toBe((await address("what's next")).key);
     expect(await address("what's next", '2027-01-01T00:00:00Z')).toEqual(await address("what's next", '2028-01-01T00:00:00Z'));
     expect((await address('summarize today')).ttl).toBe(300);
-    expect((await address('Skyline Air website')).ttl).toBe(86400);
+    expect((await address('Sponsor 1 website')).ttl).toBe(86400);
   });
   it('starts a fresh cache for every deployment', async () => {
     const at = new Date(time);
-    expect((await cacheAddress('Skyline Air website', at, 'dpl_a')).key).not.toBe((await cacheAddress('Skyline Air website', at, 'dpl_b')).key);
-    expect((await cacheAddress('Skyline Air website', at, 'dpl_a')).key).toContain(':dpl_a:');
+    expect((await cacheAddress('Sponsor 1 website', at, 'dpl_a')).key).not.toBe((await cacheAddress('Sponsor 1 website', at, 'dpl_b')).key);
+    expect((await cacheAddress('Sponsor 1 website', at, 'dpl_a')).key).toContain(':dpl_a:');
   });
   it('runs the gate before the cache, so a refused question never gets its admitted twin\'s answer', async () => {
     const services = deps();
@@ -134,7 +134,7 @@ describe('answer cache and core integration', () => {
   });
   it('caches a generated miss then serves a shared hit', async () => {
     const services = deps();
-    const input = { ...body, question: 'What is Greenmarket Co building?' };
+    const input = { ...body, question: 'What is Startup 1 building?' };
     const first = await handleAsk(request(input), services);
     const second = await handleAsk(request({ ...input, installId: 'different-user' }), services);
     const answer = await first.json();
@@ -163,9 +163,9 @@ describe('answer cache and core integration', () => {
   });
   it.each([
     { question: 'Where is the venue?', kind: 'lookup', generated: false },
-    { question: 'Summarize Skyline Air', kind: 'summary', generated: false },
-    { question: 'What is Greenmarket Co building?', kind: 'generated', generated: true },
-    { question: 'Summarize Gotham Robotics', kind: 'fallback', generated: false },
+    { question: 'Summarize Sponsor 1', kind: 'summary', generated: false },
+    { question: 'What is Startup 1 building?', kind: 'generated', generated: true },
+    { question: 'Summarize Startup 2', kind: 'fallback', generated: false },
     { question: 'Tell me about Coca-Cola', kind: 'refused', generated: false },
   ])('answers $kind through the real core', async ({ question, kind, generated }) => {
     const services = deps();
@@ -184,7 +184,7 @@ describe('global caps and failures', () => {
     if (cap === 'inflight') services.maxInflight = 0;
     else services.dailyCapUsd = 0;
     const release = jest.spyOn(services.inflight, 'release');
-    const response = await handleAsk(request({ ...body, question: 'What is Greenmarket Co building?' }), services);
+    const response = await handleAsk(request({ ...body, question: 'What is Startup 1 building?' }), services);
     expect(await response.json()).toMatchObject({ kind: 'fallback' });
     expect(services.generate).not.toHaveBeenCalled();
     expect(release).toHaveBeenCalledTimes(cap === 'daily' ? 1 : 0);
@@ -194,7 +194,7 @@ describe('global caps and failures', () => {
     const reserve = jest.spyOn(services.spend, 'reserve');
     const settle = jest.spyOn(services.spend, 'settle');
     const release = jest.spyOn(services.inflight, 'release');
-    await handleAsk(request({ ...body, question: 'What is Greenmarket Co building?' }), services);
+    await handleAsk(request({ ...body, question: 'What is Startup 1 building?' }), services);
     expect(reserve).toHaveBeenCalledWith('2026-05-28', expect.any(Number), 5);
     expect(settle).toHaveBeenCalledWith('2026-05-28', reserve.mock.calls[0][1], 0.0009);
     expect(release).toHaveBeenCalledTimes(1);
@@ -203,9 +203,9 @@ describe('global caps and failures', () => {
     const services = deps();
     services.modelLimit = jest.fn(async () => false);
     const acquire = jest.spyOn(services.inflight, 'acquire');
-    const response = await handleAsk(request({ ...body, question: 'What is Greenmarket Co building?' }), services);
+    const response = await handleAsk(request({ ...body, question: 'What is Startup 1 building?' }), services);
     expect(response.status).toBe(200);
-    expect(await response.json()).toMatchObject({ kind: 'fallback', answer: expect.stringContaining('Greenmarket Co') });
+    expect(await response.json()).toMatchObject({ kind: 'fallback', answer: expect.stringContaining('Startup 1') });
     expect(acquire).not.toHaveBeenCalled();
     expect(services.generate).not.toHaveBeenCalled();
   });
@@ -214,7 +214,7 @@ describe('global caps and failures', () => {
     services.generate = jest.fn(async () => ({ text: null, costUsd: 0 }));
     const reserve = jest.spyOn(services.spend, 'reserve');
     const settle = jest.spyOn(services.spend, 'settle');
-    expect(await (await handleAsk(request({ ...body, question: 'What is Greenmarket Co building?' }), services)).json()).toMatchObject({ kind: 'fallback' });
+    expect(await (await handleAsk(request({ ...body, question: 'What is Startup 1 building?' }), services)).json()).toMatchObject({ kind: 'fallback' });
     expect(settle).toHaveBeenCalledWith('2026-05-28', reserve.mock.calls[0][1], 0);
   });
   it('keeps uncertain spend and does not cache model failures', async () => {
@@ -223,7 +223,7 @@ describe('global caps and failures', () => {
     const settle = jest.spyOn(services.spend, 'settle');
     const set = jest.spyOn(services.cache, 'set');
     const release = jest.spyOn(services.inflight, 'release');
-    expect(await (await handleAsk(request({ ...body, question: 'What is Greenmarket Co building?' }), services)).json()).toMatchObject({ kind: 'fallback' });
+    expect(await (await handleAsk(request({ ...body, question: 'What is Startup 1 building?' }), services)).json()).toMatchObject({ kind: 'fallback' });
     expect(settle).not.toHaveBeenCalled();
     expect(set).not.toHaveBeenCalled();
     expect(release).toHaveBeenCalledTimes(1);
@@ -232,7 +232,7 @@ describe('global caps and failures', () => {
     const log = jest.spyOn(console, 'error').mockImplementation(() => undefined);
     const services = deps();
     services.summaries = new Proxy({}, { get: () => { throw new TypeError(body.question); } });
-    const response = await handleAsk(request({ ...body, question: 'Summarize Skyline Air' }), services);
+    const response = await handleAsk(request({ ...body, question: 'Summarize Sponsor 1' }), services);
     expect(response.status).toBe(503);
     expect(await response.json()).toEqual({ error: 'unavailable' });
     expect(log.mock.calls).toEqual([['Assistant request failed', 'TypeError']]);
@@ -240,7 +240,7 @@ describe('global caps and failures', () => {
 });
 
 describe('Redis outage', () => {
-  const model = { ...body, question: 'What is Greenmarket Co building?' };
+  const model = { ...body, question: 'What is Startup 1 building?' };
   // The message quotes the question, so the exact log assertions prove it is never logged.
   const fail = async (): Promise<never> => { throw new TypeError(model.question); };
 
@@ -252,7 +252,7 @@ describe('Redis outage', () => {
     const get = jest.spyOn(services.cache, 'get');
     const set = jest.spyOn(services.cache, 'set');
     for (const [question, kind] of [
-      ['Where is the venue?', 'lookup'], ['Summarize Skyline Air', 'summary'], ['Tell me about Coca-Cola', 'refused'], [model.question, 'fallback'],
+      ['Where is the venue?', 'lookup'], ['Summarize Sponsor 1', 'summary'], ['Tell me about Coca-Cola', 'refused'], [model.question, 'fallback'],
     ]) {
       const response = await handleAsk(request({ ...body, question }), services);
       expect(response.status).toBe(200);
@@ -288,7 +288,7 @@ describe('Redis outage', () => {
     const release = jest.spyOn(services.inflight, 'release');
     const response = await handleAsk(request(model), services);
     expect(response.status).toBe(200);
-    expect(await response.json()).toMatchObject({ kind: 'fallback', answer: expect.stringContaining('Greenmarket Co') });
+    expect(await response.json()).toMatchObject({ kind: 'fallback', answer: expect.stringContaining('Startup 1') });
     expect(services.generate).not.toHaveBeenCalled();
     expect(release).toHaveBeenCalledTimes(releases);
     expect(log.mock.calls).toEqual([[context, 'TypeError']]);
@@ -314,14 +314,14 @@ describe('Redis outage', () => {
     const release = jest.spyOn(services.inflight, 'release');
     const response = await handleAsk(request(model), services);
     expect(response.status).toBe(200);
-    expect(await response.json()).toMatchObject({ kind: 'generated', answer: expect.stringContaining('Greenmarket Co connects') });
+    expect(await response.json()).toMatchObject({ kind: 'generated', answer: expect.stringContaining('Startup 1 connects') });
     expect(release).toHaveBeenCalledTimes(1);
     expect(log.mock.calls).toEqual([[context, 'TypeError']]);
   });
 });
 
 describe('spend reservation', () => {
-  const prompt = { system: 'Use facts only.', user: 'Greenmarket Co facts', allowedUrls: [] };
+  const prompt = { system: 'Use facts only.', user: 'Startup 1 facts', allowedUrls: [] };
   const bytes = new TextEncoder().encode(prompt.system + prompt.user).byteLength + 1024;
   it.each([
     ['DeepSeek', DEEPSEEK_PRICES, 0.3, 1.2],

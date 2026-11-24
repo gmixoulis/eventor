@@ -3,7 +3,7 @@ import {
   applySetupRules, toOverrides, type AccentId, type EventSetup, type FeatureOverrides, type SetupFields, type SetupIdea, type SetupTurn,
 } from '@/lib/event-setup';
 
-export const SETUP_FIRST_MESSAGE = 'Tell me about your event: what it is, who it is for, and anything to leave out. Or ask for startup ideas, for example a spinoff of Greenmarket Co.';
+export const SETUP_FIRST_MESSAGE = 'Tell me about your event: what it is, who it is for, and anything to leave out. Or ask for startup ideas, for example a spinoff of Startup 1.';
 export const SETUP_DEFAULT_REPLY = 'Updated the draft.';
 export const SETUP_EMPTY_CHANGES_REPLY = "I could not find anything to change. Try 'add tickets' or 'make it green'.";
 export const SETUP_MAX_HISTORY_TURNS = 6;

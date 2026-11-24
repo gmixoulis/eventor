@@ -10,7 +10,7 @@ export const sideEvents: SideEvent[] = [
   {
     id: 'se-founders-breakfast',
     title: 'Founders Breakfast at the Park',
-    host: 'Gotham Founders Club',
+    host: 'Sponsor 32',
     category: 'Meetup',
     venueName: 'Bryant Park Kiosk',
     area: 'Midtown',
@@ -27,9 +27,9 @@ export const sideEvents: SideEvent[] = [
   {
     id: 'se-ai-art-walk',
     title: 'AI Art Gallery Walk',
-    host: 'Gotham Contemporary',
+    host: 'Organizer 1',
     category: 'Exhibition',
-    venueName: 'Gotham Contemporary Hall',
+    venueName: 'Organizer 1 Hall',
     area: 'Chelsea',
     lat: 40.7465,
     lng: -74.0014,
@@ -42,7 +42,7 @@ export const sideEvents: SideEvent[] = [
   {
     id: 'se-fintech-drinks',
     title: 'Fintech Founders Drinks',
-    host: 'Hudson Ventures',
+    host: 'Sponsor 10',
     category: 'Party',
     venueName: 'Flatiron Rooftop Bar',
     area: 'Flatiron',
@@ -58,7 +58,7 @@ export const sideEvents: SideEvent[] = [
   {
     id: 'se-pitch-clinic',
     title: 'Pitch Deck Clinic',
-    host: 'Deep Capital Group',
+    host: 'Sponsor 5',
     category: 'Workshop',
     venueName: 'SoHo Studio',
     area: 'SoHo',
@@ -75,7 +75,7 @@ export const sideEvents: SideEvent[] = [
   {
     id: 'se-media-breakfast',
     title: 'Media and Stories Breakfast',
-    host: 'The Founder Desk',
+    host: 'Organizer 2',
     category: 'Meetup',
     venueName: 'Greenwich Courtyard Cafe',
     area: 'West Village',
@@ -92,7 +92,7 @@ export const sideEvents: SideEvent[] = [
   {
     id: 'se-robotics-demo',
     title: 'Robotics Showcase',
-    host: 'Gotham Robotics',
+    host: 'Startup 2',
     category: 'Exhibition',
     venueName: 'Innovation Dock',
     area: 'DUMBO',
@@ -109,7 +109,7 @@ export const sideEvents: SideEvent[] = [
   {
     id: 'se-ai-workshop',
     title: 'Prompt Engineering Workshop',
-    host: 'Hudson Cloud',
+    host: 'Sponsor 6',
     category: 'Workshop',
     venueName: 'The High Line Room',
     area: 'Meatpacking',
@@ -126,7 +126,7 @@ export const sideEvents: SideEvent[] = [
   {
     id: 'se-investor-roundtables',
     title: 'Investor Roundtables',
-    host: 'Meridian Capital',
+    host: 'Sponsor 36',
     category: 'Meetup',
     venueName: 'Capital Club',
     area: 'Murray Hill',
@@ -143,7 +143,7 @@ export const sideEvents: SideEvent[] = [
   {
     id: 'se-creative-coding',
     title: 'Creative Coding Jam',
-    host: 'Pixel Forge',
+    host: 'Startup 6',
     category: 'Workshop',
     venueName: 'Tribeca Annex Studio',
     area: 'Tribeca',
@@ -175,7 +175,7 @@ export const sideEvents: SideEvent[] = [
   {
     id: 'se-climate-talk',
     title: 'Climate Tech Talk',
-    host: 'Nordwind Energy',
+    host: 'Organizer 3',
     category: 'Talk',
     venueName: 'Brooklyn Stage',
     area: 'Brooklyn Heights',
@@ -191,7 +191,7 @@ export const sideEvents: SideEvent[] = [
   {
     id: 'se-women-in-tech',
     title: 'Women in Tech Meetup',
-    host: 'Metro Telecom',
+    host: 'Organizer 4',
     category: 'Meetup',
     venueName: 'Union Square Hall',
     area: 'Union Square',
@@ -206,7 +206,7 @@ export const sideEvents: SideEvent[] = [
   {
     id: 'se-solo-founder-talk',
     title: 'Solo Founder Stories',
-    host: 'Riverside Fund',
+    host: 'Sponsor 11',
     category: 'Talk',
     venueName: 'Library Lounge',
     area: 'Kips Bay',
@@ -222,7 +222,7 @@ export const sideEvents: SideEvent[] = [
   {
     id: 'se-closing-party',
     title: 'Closing Night Party',
-    host: 'Skyline Air',
+    host: 'Sponsor 1',
     category: 'Party',
     venueName: 'Skyline Terrace',
     area: 'Long Island City',

@@ -31,7 +31,7 @@ export function LocationReadout({ position, gpsOn, noFix, onPress }: { position?
 type SheetProps = {
   startChoosing?: boolean; position?: Position; places: Place[]; gpsOn: boolean; overridden: boolean; simulated: boolean;
   onSetPlace: (place: Place) => void; onPickOnMap?: () => void; onUseGps: () => void; onScan: () => void;
-  /** Demo simulation, offered only where the real map can show it (Map 2). */
+  /** Demo simulation, offered only where the real map can show it. */
   onSimulate?: (on: boolean) => void; onClose: () => void;
 };
 

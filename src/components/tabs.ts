@@ -83,7 +83,7 @@ export function hidesTabBar(pathname: string): boolean {
  * the /activity form sheet, and the organizer tools (it covered the Ask switch row).
  */
 const ASK_FAB_HIDDEN_PREFIXES = [
-  '/ask', '/map', '/map2', '/guide', '/qr', '/session', '/side-event', '/passport/leaderboard', '/chat', '/activity', '/organizer',
+  '/ask', '/map', '/guide', '/qr', '/session', '/side-event', '/passport/leaderboard', '/chat', '/activity', '/organizer',
 ] as const;
 
 /** True when the ask circle shows: the ask feature is on, signed in, tab bar present, and no control of the screen underneath. Keyboard is checked by the caller. */

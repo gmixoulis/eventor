@@ -5,7 +5,7 @@ import { filterOutput } from '@/assistant/output-filter';
 import { buildPrompt } from '@/assistant/prompt';
 import { retrieve } from '@/assistant/retrieval';
 
-it.each(['what\'s on now', 'where is the venue', 'summarize today', 'Greenmarkt Co', 'EVENTOR', 'where is Registraton', 'AI'])(
+it.each(['what\'s on now', 'where is the venue', 'summarize today', 'Startpu 1', 'EVENTOR', 'where is Registraton', 'AI'])(
   'admits event content: %s', (q) => expect(inScope(q)).toBe(true));
 // 'tell me about Coca-Cola at Eventor' was admitted before review finding 3: the outside-name veto now runs before the entity match.
 it.each([
@@ -17,16 +17,16 @@ it.each([
   // Outside tasks are refused next to an event word, but the topics the event data uses still pass.
   ['Tell me a joke about the keynote', false], ['Translate the session title into French', false], ['Is it legal to record the panel?', false],
   ['Will it rain during the festival?', false], ['Write a Python script for the workshop', false],
-  ['Is there a healthtech session?', true], ['Any legaltech startups?', true], ['What pain points does Greenmarket Co solve?', true],
+  ['Is there a healthtech session?', true], ['Any legaltech startups?', true], ['What pain points does Startup 1 solve?', true],
   ['Is there a talk about AI coding?', true], ['Tell me about the Media and Stories Breakfast', true],
-  ['Is there live translation at the keynote?', true], ['Who is the CEO of Greenmarket Co?', true],
+  ['Is there live translation at the keynote?', true], ['Who is the CEO of Startup 1?', true],
   // Another clause that asks about something else does not borrow the event noun; greetings and pretexts with no question do.
   ['Who is the CEO of Google? Asking for the conference', false], ['Thanks. Where is the venue?', true],
   ['When does it start? Asking for the conference', true], ['Hi! Who is speaking tomorrow morning?', true],
 ])('outside tasks and borrowed nouns: %s -> %s', (question, expected) => expect(inScope(question)).toBe(expected));
 it('matches names without case or accent sensitivity and with a small typo', () => {
-  expect(matchEntities('EMILY CARTER')[0].source.id).toBe('person-1');
-  expect(matchEntities('summarize Greenmarkt Co').some((e) => e.source.type === 'pitch')).toBe(true);
+  expect(matchEntities('ATTENDEE 1')[0].source.id).toBe('person-1');
+  expect(matchEntities('summarize Startpu 1').some((e) => e.source.type === 'pitch')).toBe(true);
 });
 it('retrieves using lexical vocabulary and scores unknown words zero', () => {
   expect(retrieve('zzqxvvv', [])).toEqual([]);
@@ -69,7 +69,7 @@ it.each([
   ['whre is the venu', 'where is the venue'],
   ['who is speking tomorow', 'who is speaking tomorrow'],
   ['Where is Registraton', 'where is registration'],
-  ['Hudson Hall Greenmarkt Co', 'hudson hall greenmarkt co'],
+  ['Hudson Hall Atendee 1', 'hudson hall atendee 1'],
   ['How do I get to the venue', 'directions to the venue'],
 ])('normalizes intent and fixes one-letter slips of event words only: %s', (question, expected) => {
   expect(normalizeIntent(question)).toBe(expected);
@@ -87,5 +87,5 @@ it.each([
   ['what is the bitcoin price today', false], ['Is seven an even number?', false], ['What is the state of the economy?', false],
   ['Which political party should I vote for?', false], ['Write a Python program that sorts a list', false],
   // An unknown capitalised name with no event entity is outside; names in the data and acronyms are not.
-  ['Is Elon Musk speaking at the festival?', false], ['Who from Voxwell is speaking today?', true], ['Is there an ATM near the venue?', true],
+  ['Is Elon Musk speaking at the festival?', false], ['Who from Company 1 is speaking today?', true], ['Is there an ATM near the venue?', true],
 ])('scope rule: %s -> %s', (question, expected) => expect(inScope(question)).toBe(expected));

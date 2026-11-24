@@ -31,6 +31,8 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
  * Call it before saving a new setting too, so the render that follows reads the device scheme fresh.
  */
 export function applyNativeScheme(appearance: AppearanceSetting) {
+  // Appearance.setColorScheme is native-only (iOS/Android); react-native-web does not implement it.
+  if (typeof Appearance?.setColorScheme !== 'function') return;
   Appearance.setColorScheme(appearance === 'light' || appearance === 'dark' ? appearance : 'auto');
 }
 

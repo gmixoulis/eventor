@@ -71,14 +71,9 @@ export default function MenuScreen() {
               </View>
             ) : null}
             {flags.map ? (
-              <>
-                <View style={styles.tileWrap}>
-                  <Tile icon="map-signs" label="Map" onPress={() => router.push('/map')} />
-                </View>
-                <View style={styles.tileWrap}>
-                  <Tile icon="globe-europe" label="Map 2" onPress={() => router.push('/map2')} />
-                </View>
-              </>
+              <View style={styles.tileWrap}>
+                <Tile icon="map-signs" label="Map" onPress={() => router.push('/map')} />
+              </View>
             ) : null}
             {flags.sideEvents ? (
               <View style={styles.tileWrap}>

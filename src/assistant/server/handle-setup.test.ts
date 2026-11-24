@@ -218,15 +218,15 @@ it('modelJson takes the outermost object and tolerates fences', () => {
 describe('startup ideas', () => {
   it('returns validated ideas with the reply and leaves the draft as it was', async () => {
     const text = JSON.stringify({
-      reply: 'Here are three spinoffs of Greenmarket Co. Tap one to build its event app.',
+      reply: 'Here are three spinoffs of Startup 1. Tap one to build its event app.',
       ideas: [
         { title: 'OliveRoute', pitch: 'Shared delivery vans for small farms serving the same restaurants.' },
         { title: 'Bad Link', pitch: 'Visit olive.example for more.' },
       ],
     });
-    const result = await answer(deps(text), { message: 'Give me spinoff ideas for Greenmarket Co', installId: 'install_123' });
+    const result = await answer(deps(text), { message: 'Give me spinoff ideas for Startup 1', installId: 'install_123' });
     expect(result.body).toEqual({
-      reply: 'Here are three spinoffs of Greenmarket Co. Tap one to build its event app.',
+      reply: 'Here are three spinoffs of Startup 1. Tap one to build its event app.',
       ideas: [{ title: 'OliveRoute', pitch: 'Shared delivery vans for small farms serving the same restaurants.' }],
       source: 'model',
     });
@@ -237,7 +237,7 @@ describe('startup ideas', () => {
   });
   it('grounds spinoffs in the festival startups and forbids invented facts', () => {
     const { system } = buildSetupPrompt('ideas please');
-    expect(system).toContain('Greenmarket Co: Small farmers sell straight to restaurants');
+    expect(system).toContain('Startup 1: Small farmers sell straight to restaurants');
     expect(system).toContain('Ideas invent no numbers, customers, funding, people or links.');
   });
 });

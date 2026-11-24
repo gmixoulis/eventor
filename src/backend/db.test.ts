@@ -147,7 +147,7 @@ describe('demo database', () => {
     const loaded = await db.load();
     expect(db.wasReset()).toBe(false);
     expect(loaded.accounts['acct-founder']).toMatchObject({ email: 'alex.demo@example.com', permission: 'admin' });
-    expect(loaded.accounts['acct-media'].email).toBe('priya.nair@example.com');
+    expect(loaded.accounts['acct-media'].email).toBe('guest3@eventor.app');
     expect(loaded.accounts['acct-media'].permission).toBeUndefined();
     expect(loaded.accounts['acct-guest'].email).toBe('');
     expect(loaded.shared.applications).toEqual([]);

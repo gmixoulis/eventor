@@ -122,7 +122,7 @@ describe('showsAskFab', () => {
   });
 
   it('hides on the chat, maps and screens with a bottom control or pinned footer', () => {
-    const covered = ['/ask', '/map', '/map2', '/guide', '/qr', '/session/s1', '/side-event/se1', '/passport/leaderboard', '/chat/c1', '/activity'];
+    const covered = ['/ask', '/map', '/guide', '/qr', '/session/s1', '/side-event/se1', '/passport/leaderboard', '/chat/c1', '/activity'];
     for (const path of covered) expect(showsAskFab(path, false)).toBe(false);
   });
 

@@ -5,18 +5,18 @@ import { passportProgress } from '@/lib/passport';
 
 /** Twelve sample attendees with fixed points, so the leaderboard has life beyond the demo accounts. */
 const SAMPLE_ATTENDEES = [
-  { name: 'Nikos Stavrou', points: 180 },
-  { name: 'Elena Varda', points: 165 },
-  { name: 'Tomas Keller', points: 150 },
-  { name: 'Aisha Bello', points: 140 },
-  { name: 'Marco Rossi', points: 125 },
-  { name: 'Yuki Tanaka', points: 110 },
-  { name: 'Sofia Lindqvist', points: 95 },
-  { name: 'Omar Haddad', points: 80 },
-  { name: 'Clara Dubois', points: 65 },
-  { name: 'Pavel Novak', points: 50 },
-  { name: 'Rina Sharma', points: 35 },
-  { name: 'Lucas Meyer', points: 20 },
+  { name: 'Attendee 24', points: 180 },
+  { name: 'Attendee 25', points: 165 },
+  { name: 'Attendee 26', points: 150 },
+  { name: 'Attendee 27', points: 140 },
+  { name: 'Attendee 28', points: 125 },
+  { name: 'Attendee 29', points: 110 },
+  { name: 'Attendee 30', points: 95 },
+  { name: 'Attendee 31', points: 80 },
+  { name: 'Attendee 32', points: 65 },
+  { name: 'Attendee 33', points: 50 },
+  { name: 'Attendee 34', points: 35 },
+  { name: 'Attendee 35', points: 20 },
 ];
 
 /** One leaderboard row; accountId is null for the sample attendees. */

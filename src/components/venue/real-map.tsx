@@ -120,7 +120,7 @@ function RealMapView({ places, visited, bookmarked, onSelect, selectedId, route,
   return (
     <View style={styles.fill}>
       <View accessible accessibilityRole="image" style={styles.mapSummary}
-        accessibilityLabel={`Map of the Eventor Center and the the plaza, New York, from OpenStreetMap. ${places.length} festival places shown as pins; their positions are approximate. Pins are not readable by a screen reader: use the List button to browse places.${route ? ` Walking route of ${Math.round(route.metres)} metres shown.` : ''}`} />
+        accessibilityLabel={`Map of New York City Hall, Lower Manhattan, from OpenStreetMap. ${places.length} festival places shown as pins; their positions are approximate. Pins are not readable by a screen reader: use the List button to browse places.${route ? ` Walking route of ${Math.round(route.metres)} metres shown.` : ''}`} />
       <Map ref={map} style={StyleSheet.absoluteFill} mapStyle={MAP_STYLE_URL[scheme]} compass={false} logo={false}
         attribution attributionPosition={{ bottom: 8, left: 8 }} touchRotate touchPitch
         onDidFinishLoadingStyle={() => { loaded.current = true; setStyleReady(true); }} onDidFailLoadingMap={onFail}
@@ -180,7 +180,7 @@ function RealMapView({ places, visited, bookmarked, onSelect, selectedId, route,
         <MapControlButton icon="plus" label="Zoom in" onPress={() => zoomBy(1)} />
         <MapControlButton icon="minus" label="Zoom out" onPress={() => zoomBy(-1)} />
       </MapControls>
-      {!route ? <MapLegend title="Eventor Center">
+      {!route ? <MapLegend title="New York City Hall">
         <Text style={styles.caption}>Stage positions are approximate</Text>
         <Text style={styles.caption}>Paths © OpenStreetMap contributors</Text>
         {fix?.source === 'gps' ? <Text style={styles.caption}>Your location is approximate indoors</Text> : null}

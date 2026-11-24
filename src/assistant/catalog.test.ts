@@ -14,6 +14,6 @@ it('uses a bold title, compact day and consistent time range without repeating t
 
 it('omits the track clause when the session has no matching track', () => {
   const session = entities.find((entity) => entity.source.id === 's-openai-for-startups')!;
-  expect(session.facts[2]).toBe('Atlas AI for Startups features Rachel Dubois.');
+  expect(session.facts[2]).toBe('Company 7 for Startups features Speaker 10.');
   expect(entities.flatMap((entity) => entity.facts).join('\n')).not.toContain('in the  track');
 });

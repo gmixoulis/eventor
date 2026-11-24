@@ -62,8 +62,8 @@ describe('listSpeakers', () => {
     expect(listSpeakers().every((s) => !s.photo || s.photo.startsWith('https'))).toBe(true);
   });
 
-  it('finds Tomas Kowalczyk for "voxwell"', () => {
-    expect(listSpeakers({ query: 'voxwell' }).map((s) => s.name)).toContain('Tomas Kowalczyk');
+  it('finds Speaker 1 for "company 1"', () => {
+    expect(listSpeakers({ query: 'company 1' }).map((s) => s.name)).toContain('Speaker 1');
   });
 
   it('sorts by name alphabetically', () => {
@@ -75,7 +75,7 @@ describe('listSpeakers', () => {
 describe('sponsors', () => {
   it('lists the demo sponsors by name across tiers (the demo data ships no logos)', () => {
     const names = listSponsors().flatMap((t) => t.sponsors).map((s) => s.name);
-    for (const name of ['Skyline Air', 'Empire State Bank', 'Arcade Works', 'Metro Power', 'Deep Capital Group', 'Hudson Cloud']) {
+    for (const name of ['Sponsor 1', 'Sponsor 2', 'Sponsor 3', 'Sponsor 4', 'Sponsor 5', 'Sponsor 6']) {
       expect(names).toContain(name);
     }
   });
@@ -137,7 +137,7 @@ describe('search', () => {
   });
 
   it('returns people matches', () => {
-    expect(search('New York Ledger').people.length).toBeGreaterThan(0);
+    expect(search('company 59').people.length).toBeGreaterThan(0);
   });
 
   it('returns session matches', () => {
@@ -145,11 +145,11 @@ describe('search', () => {
   });
 
   it('returns speaker matches', () => {
-    expect(search('voxwell').speakers.length).toBeGreaterThan(0);
+    expect(search('company 1').speakers.length).toBeGreaterThan(0);
   });
 
   it('returns sponsor matches', () => {
-    expect(search('skyline').sponsors.length).toBeGreaterThan(0);
+    expect(search('sponsor 1').sponsors.length).toBeGreaterThan(0);
   });
 });
 

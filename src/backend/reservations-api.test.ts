@@ -67,7 +67,7 @@ describe('reservations api', () => {
     expect(investor?.reservations[0].status).toBe('reserved');
     expect(investor?.activity[0]).toMatchObject({
       kind: 'promotion',
-      title: 'A seat opened: you are in for Atlas AI for Startups',
+      title: 'A seat opened: you are in for Company 7 for Startups',
     });
   });
 

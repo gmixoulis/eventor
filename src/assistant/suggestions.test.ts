@@ -14,7 +14,7 @@ describe('buildSuggestions', () => {
   it.each([
     ['session', 'Opening', ['Who is speaking at Opening?', 'Where is Opening?']],
     ['speaker', 'Alex Demo', ['When is Alex Demo speaking?']],
-    ['pitch', 'Greenmarket Co', ['Which startups are pitching?', 'Summarize Greenmarket Co']],
+    ['pitch', 'Startup 1', ['Which startups are pitching?', 'Summarize Startup 1']],
     ['day', 'Thursday', ["What's on now?"]],
   ] as const)('follows a %s answer with supported questions', (type, title, expected) => {
     expect(buildSuggestions(response(type, title))).toEqual(expected);
@@ -59,7 +59,7 @@ describe('buildSuggestions', () => {
 
 it('attaches suggestions to every assistant answer path without an extra model call', async () => {
   const generate = jest.fn(async () => null);
-  for (const question of ['Where is the venue?', 'Summarize today', "What's on now?", 'What is Greenmarket Co building?', 'Tell me a joke']) {
+  for (const question of ['Where is the venue?', 'Summarize today', "What's on now?", 'What is Startup 1 building?', 'Tell me a joke']) {
     const answer = await answerQuestion({ question, eventTime: new Date('2026-05-28T11:25:00Z') }, { summaries: {}, generate });
     expect(answer.suggestions).toEqual(buildSuggestions(answer));
     expect(answer.suggestions?.every(isAskSuggestion)).toBe(true);
