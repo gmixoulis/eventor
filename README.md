@@ -25,12 +25,22 @@ Eventor gives attendees a schedule, a venue map, an attendee directory with inte
 <table>
 <tr>
 <td align="center" width="50%">
-<img src="docs/screenshots/home.jpg" width="260" alt="Event home screen" /><br/>
+<img src="docs/screenshots/home.jpg" width="240" alt="Event home screen" /><br/>
 <sub><b>Event home</b><br/>Happening now and up next</sub>
 </td>
 <td align="center" width="50%">
-<img src="docs/screenshots/speakers.jpg" width="260" alt="Speakers and reels" /><br/>
+<img src="docs/screenshots/schedule.jpg" width="240" alt="Multi-day schedule" /><br/>
+<sub><b>Schedule</b><br/>Multi-day agenda with filters</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<img src="docs/screenshots/speakers.jpg" width="240" alt="Speakers and reels" /><br/>
 <sub><b>Speakers and reels</b><br/>Featured people and short clips</sub>
+</td>
+<td align="center" width="50%">
+<img src="docs/screenshots/menu.jpg" width="240" alt="App menu" /><br/>
+<sub><b>Menu</b><br/>Every section in one place</sub>
 </td>
 </tr>
 </table>
